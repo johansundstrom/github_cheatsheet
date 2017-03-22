@@ -11,14 +11,13 @@
 * git är de facto standard
 * Mål: One rule only: master branch is always deployable
 
-
 ## LEARN GIT
-**Installera
+#Installera
 1) http://git-scm.com/download (installera)
 Registrera konto och logga in
 2) https://github.com/
 
-**git config
+#git config
 3) Öppna VS Code från given mapp
 4) Klicka "Initialize Git Repository"
 5) Notis visar att förändringar väntar på att skrivas
