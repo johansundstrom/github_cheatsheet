@@ -50,11 +50,11 @@ Registrera konto och logga in
 
 ## Undoing changes
 1. ```git log --oneline``` (en rad) 
-2. ```  d8362b7 upd``` 
-1. ```   f8a9f38 nya filer``` 
-```    64116aa update``` 
-1. ```git checkout f8a9f38``` 
-1. ```git status```  
+2. ```  d8362b7 upd
+1.    f8a9f38 nya filer
+1.     64116aa update
+1. git checkout f8a9f38```
+1. ```git status
 1. ```git checkout master``` 
 1. ```git status``` 
 ### VS Code
