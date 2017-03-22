@@ -1,6 +1,6 @@
 # G I T
 
-## GITHUB 
+## OM GIT
 * lightwheight
 * version control - VCS (Version Control Systems) SVN
 * branch-based workflow (branching and merging)
@@ -12,27 +12,27 @@
 * Mål: One rule only: master branch is always deployable
 
 ## LEARN GIT
-#Installera
+###Installera
 1. http://git-scm.com/download (installera)
-Registrera konto och logga in
+###Registrera konto och logga in
 2. https://github.com/
 
-#git config
+###git config
 3. Öppna VS Code från given mapp
 4. Klicka "Initialize Git Repository"
 1. Notis visar att förändringar väntar på att skrivas
 1. Öppna terminalfönstret (CTRL-ö)
-1. git config --global user.name "johansundstrom"
-1. git config --global user.email "johan.sundstrom@mdh.se"
-1. git config user.name
-1. git config user.email
-1. git config --list
-1. git config --global user.name "ninja-johan" (change username)
+1. ```git config --global user.name "johansundstrom"```
+1. ```git config --global user.email "johan.sundstrom@mdh.se"```
+1. ```git config user.name```
+1. ```git config user.email```
+1. ```git config --list```
+1. ```git config --global user.name "ninja-johan"``` (change username)
 
-Skapa repository
-git init
+##Skapa repository
+```git init```
 
-Klona från externt repository
+##Klona från externt repository
 git clone https://github.com/johansundstrom/RPi_Node (hämtar från repository)
 
 ???Anslut till github
