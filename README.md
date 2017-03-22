@@ -2,7 +2,7 @@
 
 ## OM GIT
 * lightwheight
-* version control - VCS (Version Control Systems) SVN
+m* version control - VCS (Version Control Systems) SVN
 * branch-based workflow (branching and merging)
 * Traceability
 * support teams and projects, multiple deployments
@@ -12,13 +12,13 @@
 * Mål: One rule only: master branch is always deployable
 
 ## LEARN GIT
-###Installera
+e### Installera
 1. http://git-scm.com/download (installera)
-###Registrera konto och logga in
+### Registrera konto och logga in
 2. https://github.com/
 
-###git config
-3. Öppna VS Code från given mapp
+### git config
+ 3. Öppna VS Code från given mapp
 4. Klicka "Initialize Git Repository"
 1. Notis visar att förändringar väntar på att skrivas
 1. Öppna terminalfönstret (CTRL-ö)
@@ -29,17 +29,17 @@
 1. ```git config --list```
 1. ```git config --global user.name "ninja-johan"``` (change username)
 
-##Skapa repository
+## Skapa repository
 ```git init```
 
-##Klona från externt repository
-git clone https://github.com/johansundstrom/RPi_Node (hämtar från repository)
+## Klona från externt repository
+```git clone https://github.com/johansundstrom/RPi_Node``` (hämtar från repository)
 
-???Anslut till github
+???Anslut till regithub
 ---------------------
-13) git remote add origin https://github.com/johansundstrom/try_git.git
-14) git push -u origin master (-u remember parameters, next time: git push)
-15) git pull origin master
+1. ```git remote add origin https://github.com/johansundstrom/try_git.git```
+1. ```git push -u origin master``` (-u remember parameters, next time: git push)
+1. git pull origin master
 
 Edit --> Stage --> Commit
 ------------------------- 
