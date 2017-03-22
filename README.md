@@ -50,13 +50,13 @@ git status (visar status)
 ```git log (-p)``` (visar commit händelser, visar vad som ändrats)
 
 ## Undoing changes
-```git log --oneline``` (en rad)
-```    d8362b7 upd```
-```    f8a9f38 nya filer```
-```    64116aa update```
-```git checkout f8a9f38```
+```git log --oneline``` (en rad) 
+```    d8362b7 upd``` 
+```    f8a9f38 nya filer``` 
+```    64116aa update``` 
+```git checkout f8a9f38``` 
+```git status```  
+```git checkout master``` 
 ```git status``` 
-```git checkout master```
-```git status```
 ### VS Code
 Markera fil - Clean
