@@ -30,9 +30,8 @@ Registrera konto och logga in
 1. ```git config --list```
 1. ```git config --global user.name "ninja-johan"``` (change username)
 
-## Skapa repository
+## Skapa repository lokalt
 ```git init```
-
 ## Three stages
 1. modified (förändrad med ej committed)
 2. staged (märkt för att bli committed)
@@ -40,23 +39,23 @@ Registrera konto och logga in
 
 ## Modify-->Stage-->Commit
 ### Spara ändringar
-git status (visar status)
-```Stage file(s)```
-```git add <file> | <directory> | <*.????> | <.>``` (fil | mapp | wildcard | alla (stage file(s))
-```git add xxx <-p>``` (visa diff) 
-```git reset``` (opposite of git add )
+1. git status (visar status)
+2. ```Stage file(s)```
+1. ```git add <file> | <directory> | <*.????> | <.>``` (fil | mapp | wildcard | alla (stage file(s))
+1. ```git add xxx <-p>``` (visa diff) 
+1. ```git reset``` (opposite of git add )
 ### Commit file(s)
-```git commit -m "commit message"``` 
-```git log (-p)``` (visar commit händelser, visar vad som ändrats)
+1. ```git commit -m "commit message"``` 
+1. ```git log (-p)``` (visar commit händelser, visar vad som ändrats)
 
 ## Undoing changes
-```git log --oneline``` (en rad) 
-```    d8362b7 upd``` 
-```    f8a9f38 nya filer``` 
-```    64116aa update``` 
-```git checkout f8a9f38``` 
-```git status```  
-```git checkout master``` 
-```git status``` 
+1. ```git log --oneline``` (en rad) 
+2. ```  d8362b7 upd``` 
+1. ```   f8a9f38 nya filer``` 
+```    64116aa update``` 
+1. ```git checkout f8a9f38``` 
+1. ```git status```  
+1. ```git checkout master``` 
+1. ```git status``` 
 ### VS Code
 Markera fil - Clean
