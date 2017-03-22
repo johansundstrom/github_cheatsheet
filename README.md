@@ -18,16 +18,16 @@ Registrera konto och logga in
 2. https://github.com/
 
 #git config
-3) Öppna VS Code från given mapp
-4) Klicka "Initialize Git Repository"
-5) Notis visar att förändringar väntar på att skrivas
-6) Öppna terminalfönstret (CTRL-ö)
-7) git config --global user.name "johansundstrom"
-8) git config --global user.email "johan.sundstrom@mdh.se"
-9) git config user.name
-10) git config user.email
-11) git config --list
-12) git config --global user.name "ninja-johan" (change username)
+3. Öppna VS Code från given mapp
+4. Klicka "Initialize Git Repository"
+1. Notis visar att förändringar väntar på att skrivas
+1. Öppna terminalfönstret (CTRL-ö)
+1. git config --global user.name "johansundstrom"
+1. git config --global user.email "johan.sundstrom@mdh.se"
+1. git config user.name
+1. git config user.email
+1. git config --list
+1. git config --global user.name "ninja-johan" (change username)
 
 Skapa repository
 git init
