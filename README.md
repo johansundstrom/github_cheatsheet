@@ -13,9 +13,9 @@
 
 ## LEARN GIT
 #Installera
-1) http://git-scm.com/download (installera)
+1. http://git-scm.com/download (installera)
 Registrera konto och logga in
-2) https://github.com/
+2. https://github.com/
 
 #git config
 3) Öppna VS Code från given mapp
