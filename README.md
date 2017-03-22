@@ -2,7 +2,7 @@
 
 ## OM GIT
 * lightwheight
-m* version control - VCS (Version Control Systems) SVN
+* version control - VCS (Version Control Systems) SVN
 * branch-based workflow (branching and merging)
 * Traceability
 * support teams and projects, multiple deployments
@@ -12,7 +12,7 @@ m* version control - VCS (Version Control Systems) SVN
 * Mål: One rule only: master branch is always deployable
 
 ## LEARN GIT
-e### Installera
+### Installera
 1. http://git-scm.com/download (installera)
 ### Registrera konto och logga in
 2. https://github.com/
