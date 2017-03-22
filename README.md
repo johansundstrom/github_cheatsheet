@@ -1,6 +1,6 @@
 # G I T
 
-## GITHUB 
+## Vad är för?
 * lightwheight
 * version control - VCS (Version Control Systems) SVN
 * branch-based workflow (branching and merging)
@@ -12,8 +12,7 @@
 * Mål: One rule only: master branch is always deployable
 
 
-## LEARN GIT
-### Installera
+## Installera git
 1. http://git-scm.com/download (installera)
 Registrera konto och logga in
 2. https://github.com/
@@ -31,17 +30,18 @@ Registrera konto och logga in
 1. ```git config --global user.name "ninja-johan"``` (change username)
 
 ## Skapa repository lokalt
-```git init```
-## Three stages
+```git init``` 
+## Spara versioner
+### Tre stages
 1. modified (förändrad med ej committed)
 2. staged (märkt för att bli committed)
 3. committed (säkert förvar i databasen)
 
 ## Modify-->Stage-->Commit
 ### Spara ändringar
-1. git status (visar status)
-2. ```Stage file(s)```
-1. ```git add <file> | <directory> | <*.????> | <.>``` (fil | mapp | wildcard | alla (stage file(s))
+1. ```git status``` (visar status)
+### Stage file(s)
+2. ```git add <file> | <directory> | <*.????> | <.>``` (fil | mapp | wildcard | alla (stage file(s))
 1. ```git add xxx <-p>``` (visa diff) 
 1. ```git reset``` (opposite of git add )
 ### Commit file(s)
