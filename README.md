@@ -68,9 +68,9 @@ Snabb beskrivning
 * ```git log --oneline``` (en rad)
 output från ovanstående
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d8362b7 upd
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;f8a9f38 nya filer
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;64116aa update 
+d8362b7 upd (commit meddelanden...)
+f8a9f38 nya filer
+64116aa update 
 ```
 * ```git checkout f8a9f38``` 
 * ```git status``` 
