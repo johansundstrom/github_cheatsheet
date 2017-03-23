@@ -47,10 +47,11 @@ Snabb beskrivning
 1. ```git add .``` (stage'ar allt)
 2. ```git commit -m "commit message"``` (commit'ar allt)
 1. ```git status``` (visar status)
+
 ### 1. Stage file(s)
 ```git add <file> | <directory> | <'*.????'> | <.>``` (fil | mapp | wildcard | alla)
-```git add xxx <-p>``` (visa diff) 
-```git reset [folder/file]``` (opposite of git add)
+```git add xxx <-p>``` (visa diff)
+```git reset [folder/file]``` (motsats till git add)
 
 ### 2. Commit file(s)
 ```git commit -m "commit message"``` 
