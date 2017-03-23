@@ -2,6 +2,7 @@
 ---
 ## git/GITHUB
 ### Snabbfakta
+#### git
 * git är namnet på funktionen av versionshantering
 * Version control - VCS (Version Control Systems) SVN
 * git är _Lightwheight_
@@ -13,6 +14,7 @@
 * Git är de facto standard
 * Mål: One rule only: master branch is always deployable
 * ('git' is British slang for "pig headed, think they are always correct, argumentative") _wiki_
+#### github
 * Centrala datalagringsplatser (fil- och databaser) kallas _repository_
 * github är ett repository
 
@@ -47,36 +49,37 @@ Snabb beskrivning
 1. ```git add .``` (stage'ar allt)
 2. ```git commit -m "commit message"``` (commit'ar allt)
 1. ```git status``` (visar status)
-
 ### 1. Stage file(s)
-```git add <file> | <directory> | <'*.????'> | <.>``` (fil | mapp | wildcard | alla)
-```git add xxx <-p>``` (visa diff)
-```git reset [folder/file]``` (motsats till git add)
+* ```git add <file> | <directory> | <'*.????'> | <.>``` (fil | mapp | wildcard | alla)
+* ```git add xxx <-p>``` (visa diff) 
+* ```git reset [folder/file]``` (opposite of git add)
 
 ### 2. Commit file(s)
-```git commit -m "commit message"``` 
-```git log``` (visar full insyn)
-```git log (-p)``` (visar commit händelser, visar vad som ändrats)
-```git checkout -- <file>``` (återgå till sista commit)
+* ```git commit -m "commit message"``` 
+* ```git log``` (visar full insyn)
+* ```git log (-p)``` (visar commit händelser, visar vad som ändrats)
+* ```git checkout -- <file>``` (återgå till sista commit)
 
 ### Visual Studio Code
-Ett ```M```indikerar modified
-Markera fil - _Stage_
+* Ett ```M```indikerar modified
+* Markera fil - _Stage_
 
 ## Undoing changes
-```git log --oneline``` (en rad)
+* ```git log --oneline``` (en rad)
 output från ovanstående
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```d8362b7 upd``` 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```f8a9f38 nya filer``` 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```64116aa update``` 
-```git checkout f8a9f38``` 
-```git status``` 
-```git checkout master``` 
-```git checkout -- <fil>``` (återgår till sista commit)
-```git status``` 
+```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d8362b7 upd
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;f8a9f38 nya filer
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;64116aa update 
+```
+* ```git checkout f8a9f38``` 
+* ```git status``` 
+* ```git checkout master``` 
+* ```git checkout -- <fil>``` (återgår till sista commit)
+* ```git status``` 
 ### Med Visual Studio Code
-Ett ```M```indikerar modified
-Markera fil - _Clean_
+* Ett ```M```indikerar modified
+* Markera fil - _Clean_
 
 ## Arbeta mot remote server
 ### Översikt kommandon
@@ -91,11 +94,11 @@ Markera fil - _Clean_
 * ```git push```
 
 ### Hämta från extern repository
-```git remote add <name> <url>``` (skapar anslutning med namn)
-```git remote rename <old-name> <new-name>```
-```git pull origin master```(hämtar senaste master från anslutning origin)
+* ```git remote add <name> <url>``` (skapar anslutning med namn)
+* ```git remote rename <old-name> <new-name>```
+* ```git pull origin master```(hämtar senaste master från anslutning origin)
 origin remote (med git clone kallas anslutningen för origin)
-```git push -u origin master```(-u parametrar i minnet, git push nästa gång)
+* ```git push -u origin master```(-u parametrar i minnet, git push nästa gång)
 
 ## Branch - Merge
 Snabb beskrivning
@@ -106,19 +109,19 @@ Snabb beskrivning
 5. ```git merge <new-idea>``` (slår samman)
 6. ```git branch -d <new-idea>``` (raderar branch <new-idea>)
 ### Skapa Branch 
-```git branch <new-idea>``` (Skapar kopia av master i new-idea)
+* ```git branch <new-idea>``` (Skapar kopia av master i new-idea)
 ### Switch till Branch
-```git checkout <new-idea>```(switch till branch)
-```git rm '*.txt'```(Raderar alla *.txt i branch new-idea)
-```git commit -m "raderat alla *.txt"```
+1. ```git checkout <new-idea>```(switch till branch)
+2. ```git rm '*.txt'```(Raderar alla *.txt i branch new-idea)
+1. ```git commit -m "raderat alla *.txt"```
 ### Chechout master
-```git checkout master``` (switch till master)
+* ```git checkout master``` (switch till master)
 ### Förbered för Merge
-```git merge <new-idea>``` (slår samman)
+* ```git merge <new-idea>``` (slår samman)
 ### Branch städning
-```git branch -d <new-idea>``` (raderar branch <new-idea>)
+* ```git branch -d <new-idea>``` (raderar branch <new-idea>)
 ### Slutlig upload to repository
-```git push```
+* ```git push```
 
 git pull ()
 
