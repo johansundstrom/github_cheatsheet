@@ -7,7 +7,7 @@
 * Version control - VCS (Version Control Systems) SVN
 * git är _Lightwheight_
 * Branch-based workflow (_branching_ och _merging_)
-* Traceability
+* stödjer Traceability
 * Support teams and projects, multiple deployments
 * Git är open source, skapat bl.a. av Linus Thorvalds 2005
 * Kan vara svårtlärt
