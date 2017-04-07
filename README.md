@@ -65,7 +65,7 @@ Snabb beskrivning
 * ```+``` öppnar _Stage_ ```A``` visas
 * Markera fil - _Stage_
 * Skriv commit message, Skicka
-
+* Klick på ```M```visar förändringar
 ## Undoing changes
 * ```git log --oneline``` (en rad)
 output från ovanstående
