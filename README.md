@@ -62,7 +62,9 @@ Snabb beskrivning
 
 ### Visual Studio Code
 * Ett ```M```indikerar modified
+* ```+``` öppnar _Stage_ ```A``` visas
 * Markera fil - _Stage_
+* Skriv commit message, Skicka
 
 ## Undoing changes
 * ```git log --oneline``` (en rad)
