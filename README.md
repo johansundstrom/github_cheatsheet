@@ -3,14 +3,14 @@
 ## git/GITHUB
 ### Snabbfakta
 #### git
-* git är namnet på funktionen av versionshantering
-* Version control - VCS (Version Control Systems) SVN
+* git är ett versionshanteringsprogram
+* Version control - VCS (Version Control Systems) Subversion SVN är ett annat
 * git är _Lightwheight_
 * Branch-based workflow (_branching_ och _merging_)
 * stödjer Traceability
-* Support teams and projects, multiple deployments
+* Stödjer teams and projects, multiple deployments
 * Git är open source, skapat bl.a. av Linus Thorvalds 2005
-* Kan vara svårtlärt
+* Kan vara svårt att lära sig
 * Git är de facto standard
 * Mål: One rule only: master branch is always deployable
 * ('git' is British slang for "pig headed, think they are always correct, argumentative") _wiki_
