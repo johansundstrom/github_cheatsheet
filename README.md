@@ -24,6 +24,12 @@
 2. https://github.com/
 3. Registrera konto på ```github.com``` och logga in
 
+### GUI
+* GitHub for Windows
+https://windows.github.com
+* GitHub for Mac
+https://mac.github.com
+
 ### Git config
 1. Öppna VS Code från given mapp
 1. Klicka "Initialize Git Repository"
