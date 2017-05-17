@@ -41,6 +41,7 @@ https://mac.github.com
 1. ```git config user.email```
 1. ```git config --list```
 1. ```git config --global user.name "ninja-johan"``` (change username)
+1. ```git config --global color.ui auto``` (färg UI)
 
 ## Skapa _repository_ lokalt
 ```git init``` (skapar förutsättning för versionshantering med dold ```.git```-undermapp)
