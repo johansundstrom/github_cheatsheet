@@ -59,7 +59,7 @@ Snabb beskrivning
 ### 1. Stage file(s)
 * ```git add <file> | <directory> | <'*.????'> | <.>``` (fil | mapp | wildcard | alla)
 * ```git add xxx <-p>``` (visa diff) 
-* ```git reset [folder/file]``` (opposite of git add)
+* ```git reset HEAD [folder/file]``` (opposite of git add)
 
 ### 2. Commit file(s)
 * ```git commit -m "commit message"``` 
