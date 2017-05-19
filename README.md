@@ -72,7 +72,7 @@ Snabb beskrivning
 ### Visa skillnader mellan arbetsfiler och reposiory
 * ```git diff (file)```
 ### Visa skillnader mellan staged och repository
-* ```git diff --staged
+* ```git diff --staged```
 
 ### Visual Studio Code
 * Ett ```M```indikerar modified
