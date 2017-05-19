@@ -79,6 +79,8 @@ Snabb beskrivning
 * ```git mv oldname.file newname.file```
 ### Flyttar fil till mapp
 * ```git mv oldname.file folder/newname.file```
+### Commit med Add
+* ```git commit -am "meddelande"
 
 ### Visual Studio Code
 * Ett ```M```indikerar modified
