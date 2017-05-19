@@ -74,7 +74,9 @@ Snabb beskrivning
 ### Visa skillnader mellan staged och repository
 * ```git diff --staged```
 ### Radera arbetsfiler och repository-filer
-* `it rm fil.ext
+* ```git rm fil.file``` Kräver git add nyfil.file och git rm gammal.file innan commit
+### Byt namn på fil
+* ```git mv oldname.file newname.file
 
 ### Visual Studio Code
 * Ett ```M```indikerar modified
