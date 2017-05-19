@@ -76,7 +76,9 @@ Snabb beskrivning
 ### Radera arbetsfiler och repository-filer
 * ```git rm fil.file``` Kräver git add nyfil.file och git rm gammal.file innan commit
 ### Byt namn på fil
-* ```git mv oldname.file newname.file
+* ```git mv oldname.file newname.file```
+### Flyttar fil till mapp
+* ```git mv oldname.file folder/newname.file```
 
 ### Visual Studio Code
 * Ett ```M```indikerar modified
