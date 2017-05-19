@@ -73,6 +73,8 @@ Snabb beskrivning
 * ```git diff (file)```
 ### Visa skillnader mellan staged och repository
 * ```git diff --staged```
+### Radera arbetsfiler och repository-filer
+* `it rm fil.ext
 
 ### Visual Studio Code
 * Ett ```M```indikerar modified
