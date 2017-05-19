@@ -69,6 +69,11 @@ Snabb beskrivning
 
 * ```git log author="joh"``` Visar alla commits från viss användare
 
+### Visa skillnader mellan arbetsfiler och reposiory
+* ```git diff (file)```
+### Visa skillnader mellan staged och repository
+* ```git diff --staged
+
 ### Visual Studio Code
 * Ett ```M```indikerar modified
 * ```+``` öppnar _Stage_ ```A``` visas
