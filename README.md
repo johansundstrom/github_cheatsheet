@@ -88,7 +88,7 @@ Snabb beskrivning
 * Markera fil - _Stage_
 * Skriv commit message, Skicka
 * Klick på ```M```visar förändringar
-## Undoing changes
+## Undoing changes från repository (koperar tidigare stage till senast. Raderar inte)
 * ```git log --oneline``` (en rad)
 output från ovanstående
 ```
@@ -96,7 +96,7 @@ d8362b7 upd (commit meddelanden...)
 f8a9f38 nya filer
 64116aa update 
 ```
-* ```git checkout f8a9f38``` 
+* ```git checkout f8a9f38 -- filename.ext```
 * ```git status``` 
 * ```git checkout master``` 
 * ```git checkout -- <fil>``` (återgår till sista commit)
