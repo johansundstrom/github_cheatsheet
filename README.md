@@ -80,7 +80,7 @@ Snabb beskrivning
 ### Flyttar fil till mapp
 * ```git mv oldname.file folder/newname.file```
 ### Commit med Add
-* ```git commit -am "meddelande"
+* ```git commit -am "meddelande"```
 
 ### Visual Studio Code
 * Ett ```M```indikerar modified
