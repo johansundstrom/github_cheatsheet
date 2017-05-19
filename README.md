@@ -67,6 +67,8 @@ Snabb beskrivning
 * ```git log (-p)``` (visar commit händelser, visar vad som ändrats)
 * ```git checkout -- <file>``` (återgå till sista commit)
 
+* ```git log author="joh"``` Visar alla commits från viss användare
+
 ### Visual Studio Code
 * Ett ```M```indikerar modified
 * ```+``` öppnar _Stage_ ```A``` visas
