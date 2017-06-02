@@ -5,7 +5,7 @@
 
 #### git
 
-<img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" width="18%" height="18%" />
+<img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" width="10%" height="10%" />
 
 (bild: git.scm.com)
 * git är ett versionshanteringsprogram
@@ -21,7 +21,7 @@
 * ('git' is British slang for "pig headed, think they are always correct, argumentative") _wiki_
 #### github
 
-<img src="https://crossbrowsertesting.com/design/images/github-logo.png" width="25%" height="25%" />
+<img src="https://crossbrowsertesting.com/design/images/github-logo.png" width="15%" height="15%" />
 
 * Centrala datalagringsplatser (fil- och databaser) kallas _repository_
 * github är ett publikt repository
