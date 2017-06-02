@@ -85,7 +85,9 @@ Snabb beskrivning
 ### 2. Commit file(s)
 * ```git commit -m "commit message"``` 
 
-### 3. 
+### 3. Add med Commit
+* ```git commit -am "meddelande"```
+
 * ```git log``` (visar full insyn)
 * ```git log (-p)``` (visar commit händelser, visar vad som ändrats)
 * ```git checkout -- <file>``` (återgå till sista commit)
@@ -101,8 +103,7 @@ Snabb beskrivning
 * ```git mv oldname.file newname.file```
 ### Flyttar fil till mapp
 * ```git mv oldname.file folder/newname.file```
-### Commit med Add
-* ```git commit -am "meddelande"```
+
 
 ### Visual Studio Code
 * Ett ```M```indikerar modified
