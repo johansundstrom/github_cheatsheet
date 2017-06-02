@@ -17,6 +17,8 @@
 #### github
 * Centrala datalagringsplatser (fil- och databaser) kallas _repository_
 * github är ett repository
+
+<img src="http://1.bp.blogspot.com/-WY2YpNr3W6g/UY6tZAc-H3I/AAAAAAAABLY/xJ9x3wIY8V8/s1600/Github2.png" width="30%" height="30%" />
 ---
 ## Kom igång
 ### Installera
@@ -51,7 +53,7 @@ https://mac.github.com
 
 ----
 ## Tre _stages_
-<img src="https://git-scm.com/images/about/index1@2x.png" width="25%" height="25%" />
+<img src="https://git-scm.com/images/about/index1@2x.png" width="30%" height="30%" />
 
 (bild: github.com)
 1. **Modified** (redigerad fil upptäckt [röd])
