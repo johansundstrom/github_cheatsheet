@@ -51,7 +51,8 @@ https://mac.github.com
 
 ----
 ## Tre _stages_
-<img src="https://git-scm.com/images/about/index1@2x.png" />
+<img src="https://git-scm.com/images/about/index1@2x.png" width="50%" height="50%" />
+
 1. **Modified** (redigerad fil upptäckt [röd])
 2. **Staged** (märkt för att bli committed [grön])
 3. **Committed** (säkert förvar i versionsdatabasen)
