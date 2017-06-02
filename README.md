@@ -1,9 +1,7 @@
 # Om G I T - av johan sundström
----
-## git och github
-### Snabbfakta
 
-#### git
+## git och github
+---
 
 <img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" width="10%" height="10%" />
 
@@ -19,7 +17,6 @@
 * Git är de facto standard
 * Mål: One rule only: master branch is always deployable
 * ('git' is British slang for "pig headed, think they are always correct, argumentative") _wiki_
-#### github
 
 <img src="https://crossbrowsertesting.com/design/images/github-logo.png" width="15%" height="15%" />
 
@@ -30,6 +27,7 @@
 <img src="http://1.bp.blogspot.com/-WY2YpNr3W6g/UY6tZAc-H3I/AAAAAAAABLY/xJ9x3wIY8V8/s1600/Github2.png" width="30%" height="30%" />
 
 (bild: jahya.net)
+
 ---
 ## Kom igång
 ### Installera
@@ -44,7 +42,9 @@ https://windows.github.com
 https://mac.github.com
 
 ### VS Code och git
-* Installera först http://git-scm.com/download för tillgång i VS Code
+<img src="https://image.apphit.com/image/visual-studio-code/visual-studio-code-logo.png" width="10%" height="10%" />
+
+* Installera först http://git-scm.com/download för tillgång av git i VS Code
 ---
 ### Git config
 1. Öppna VS Code från given mapp
