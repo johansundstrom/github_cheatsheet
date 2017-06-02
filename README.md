@@ -1,6 +1,6 @@
 # Om G I T - av johan sundström
 ---
-## git/GITHUB
+## git och github
 ### Snabbfakta
 #### git
 * git är ett versionshanteringsprogram
@@ -17,7 +17,7 @@
 #### github
 * Centrala datalagringsplatser (fil- och databaser) kallas _repository_
 * github är ett repository
-
+---
 ## Kom igång
 ### Installera
 1. http://git-scm.com/download (installera)
@@ -29,12 +29,12 @@
 https://windows.github.com
 * GitHub for Mac
 https://mac.github.com
-
+---
 ### Git config
 1. Öppna VS Code från given mapp
 1. Klicka "Initialize Git Repository"
 1. Notis visar att förändringar väntar på att skrivas
-1. Öppna terminalfönstret (CTRL-ö)
+1. Öppna terminalfönstret (CTRL-ö) (--global ger åtkomst i alla mappar)
 1. ```git config --global user.name "johansundstrom"```
 1. ```git config --global user.email "johan.sundstrom@mdh.se"```
 1. ```git config user.name```
@@ -43,21 +43,23 @@ https://mac.github.com
 1. ```git config --global user.name "ninja-johan"``` (change username)
 1. ```git config --global color.ui auto``` (färg UI)
 
-## Skapa _repository_ lokalt
+### Skapa _repository_ lokalt
 ```git init``` (skapar förutsättning för versionshantering med dold ```.git```-undermapp)
 
+----
 ## Tre _stages_
-1. **Modified** (förändrad med ej committed)
-2. **Staged** (märkt för att bli committed)
+1. **Modified** (redigerad fil upptäckt [röd])
+2. **Staged** (märkt för att bli committed [grön])
 3. **Committed** (säkert förvar i versionsdatabasen)
 
-## Modify--->Stage--->Commit
+## Modify--->Stage--->Commit 
 Snabb beskrivning
 1. ```git add .``` (stage'ar allt)
-2. ```git commit -m "commit message"``` (commit'ar allt)
 1. ```git status``` (visar status)
+1. ```git commit -m "commit message"``` (commit'ar allt)
+
 ### 1. Stage file(s)
-* ```git add <file> | <directory> | <'*.????'> | <.>``` (fil | mapp | wildcard | alla)
+* ```git add file | directory | *.???? | .``` (fil | mapp | wildcard | alla)
 * ```git add xxx <-p>``` (visa diff) 
 * ```git reset HEAD [folder/file]``` (opposite of git add)
 
