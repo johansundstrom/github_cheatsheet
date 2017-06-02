@@ -24,11 +24,14 @@
 2. https://github.com/
 3. Registrera konto på ```github.com``` och logga in
 
-### GUI
+### GUI (rekommenderas ej)
 * GitHub for Windows
 https://windows.github.com
 * GitHub for Mac
 https://mac.github.com
+
+### VS Code och git
+* Installera först http://git-scm.com/download för tillgång i VS Code
 ---
 ### Git config
 1. Öppna VS Code från given mapp
@@ -48,6 +51,7 @@ https://mac.github.com
 
 ----
 ## Tre _stages_
+![](https://git-scm.com/images/about/index1@2x.png | width=100) 
 1. **Modified** (redigerad fil upptäckt [röd])
 2. **Staged** (märkt för att bli committed [grön])
 3. **Committed** (säkert förvar i versionsdatabasen)
