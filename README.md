@@ -42,7 +42,7 @@ https://windows.github.com
 https://mac.github.com
 
 ### VS Code och git
-<img src="https://image.apphit.com/image/visual-studio-code/visual-studio-code-logo.png" width="10%" height="10%" />
+<img src="https://image.apphit.com/image/visual-studio-code/visual-studio-code-logo.png" width="5%" height="5%" />
 
 * Installera först http://git-scm.com/download för tillgång av git i VS Code
 ---
