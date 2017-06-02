@@ -44,7 +44,7 @@ https://mac.github.com
 ### VS Code och git
 <img src="https://image.apphit.com/image/visual-studio-code/visual-studio-code-logo.png" width="5%" height="5%" />
 
-* Installera först http://git-scm.com/download för tillgång av git i VS Code
+* http://git-scm.com/download krävs för tillgång till git i VS Code
 ---
 ### Git config
 1. Öppna VS Code från given mapp
@@ -63,6 +63,7 @@ https://mac.github.com
 ```git init``` (skapar förutsättning för versionshantering med dold ```.git```-undermapp)
 
 ----
+# Versionshantering
 ## Tre _stages_
 <img src="https://git-scm.com/images/about/index1@2x.png" width="30%" height="30%" />
 
