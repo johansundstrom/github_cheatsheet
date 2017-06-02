@@ -24,12 +24,12 @@
 <img src="https://crossbrowsertesting.com/design/images/github-logo.png" width="25%" height="25%" />
 
 * Centrala datalagringsplatser (fil- och databaser) kallas _repository_
-* github är ett repository
+* github är ett publikt repository
 * git är inte github
 
 <img src="http://1.bp.blogspot.com/-WY2YpNr3W6g/UY6tZAc-H3I/AAAAAAAABLY/xJ9x3wIY8V8/s1600/Github2.png" width="30%" height="30%" />
 
-#### (bild: jahya.net)
+(bild: jahya.net)
 ---
 ## Kom igång
 ### Installera
@@ -68,8 +68,8 @@ https://mac.github.com
 
 (bild: github.com)
 1. **Modified** (redigerad fil upptäckt [röd])
-2. **Staged** (märkt för att bli committed [grön])
-3. **Committed** (säkert förvar i versionsdatabasen)
+2. **Staged** (märkt för att bli committed [gul])
+3. **Committed** (säkert förvar i versionsdatabasen [grön])
 
 ## Modify--->Stage--->Commit 
 Snabb beskrivning
@@ -84,6 +84,8 @@ Snabb beskrivning
 
 ### 2. Commit file(s)
 * ```git commit -m "commit message"``` 
+
+### 3. 
 * ```git log``` (visar full insyn)
 * ```git log (-p)``` (visar commit händelser, visar vad som ändrats)
 * ```git checkout -- <file>``` (återgå till sista commit)
