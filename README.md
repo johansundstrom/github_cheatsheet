@@ -2,7 +2,12 @@
 ---
 ## git och github
 ### Snabbfakta
+
 #### git
+
+<img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" width="18%" height="18%" />
+
+(bild: git.scm.com)
 * git är ett versionshanteringsprogram
 * Version control - VCS (Version Control Systems) Subversion SVN är ett annat
 * git är _Lightwheight_
@@ -15,10 +20,16 @@
 * Mål: One rule only: master branch is always deployable
 * ('git' is British slang for "pig headed, think they are always correct, argumentative") _wiki_
 #### github
+
+<img src="https://crossbrowsertesting.com/design/images/github-logo.png" width="25%" height="25%" />
+
 * Centrala datalagringsplatser (fil- och databaser) kallas _repository_
 * github är ett repository
+* git är inte github
 
 <img src="http://1.bp.blogspot.com/-WY2YpNr3W6g/UY6tZAc-H3I/AAAAAAAABLY/xJ9x3wIY8V8/s1600/Github2.png" width="30%" height="30%" />
+
+#### (bild: jahya.net)
 ---
 ## Kom igång
 ### Installera
