@@ -69,7 +69,7 @@ Snabb beskrivning
 * ```git log (-p)``` (visar commit händelser, visar vad som ändrats)
 * ```git checkout -- <file>``` (återgå till sista commit)
 * ```git log author="joh"``` Visar alla commits från viss användare
-
+---
 ### Visa skillnader mellan arbetsfiler och repository
 * ```git diff (file)```
 ### Visa skillnader mellan staged och repository
