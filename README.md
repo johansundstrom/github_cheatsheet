@@ -31,21 +31,21 @@
 
 ---
 ## Kom igång
-### Installera
-1. http://git-scm.com/download (installera)
-2. https://github.com/
-3. Registrera konto på ```github.com``` och logga in
+### Installera git
+* ```http://git-scm.com/download``` (installera)
+### Förbered github
+* Registrera konto på ```https://github.com``` och logga in
 
-### GUI (rekommenderas ej)
+### GUI tools (rekommenderas ej)
 * GitHub for Windows
-https://windows.github.com
+```https://windows.github.com```
 * GitHub for Mac
-https://mac.github.com
+```https://mac.github.com```
 
 ### VS Code och git
 <img src="https://image.apphit.com/image/visual-studio-code/visual-studio-code-logo.png" width="5%" height="5%" />
 
-* http://git-scm.com/download krävs för tillgång till git i VS Code
+* ```http://git-scm.com/download``` krävs för tillgång till git i VS Code
 ---
 ### Git config
 1. Öppna VS Code från given mapp
