@@ -6,23 +6,21 @@
 <img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" width="10%" height="10%" />
 
 (bild: git.scm.com)
-* git är ett versionshanteringsprogram
-* git är ett Version control - VCS (Version Control Systems), Subversion SVN är ett annat
-* git är _Lightwheight_
-* Branch-based workflow (_branching_ och _merging_)
-* stödjer Traceability, möjlight att backa tillbaka
-* Stödjer teams and projects, multiple deployments
-* Git är open source, skapat bl.a. av Linus Thorvalds 2005
+* _git_ är ett versionshanteringsprogram VCS (Version Control System), _Subversion_ (SVN) är ett annat
+* Versionshantering innebär stöd för _traceability_, möjligheten att backa till tidigare versioner
+* Stödjer flera användare i ett team eller projekt genom branch-based workflow (_branching_ och _merging_)
+* Är de facto standard och _lightwheight_ 
+* _Open source_, skapat bl.a. av Linus Thorvalds 2005
 * Kan vara svårt att lära sig
-* Git är de facto standard
-* Mål: One rule only: master branch is always deployable
-* ('git' is British slang for "pig headed, think they are always correct, argumentative") _wiki_
+* Mål: _One rule only: master branch is always deployable_
+* _git_ is British slang för "_pig headed_, think they are always correct, argumentative" _wiki_
 
 <img src="https://crossbrowsertesting.com/design/images/github-logo.png" width="15%" height="15%" />
 
 (bild: github.com)
-* Centrala datalagringsplatser (fil- och databaser) kallas _repository_
-* github är ett publikt repository
+* Centrala datalagringsplatser (fil- och databaser) kallas _repository_ eller 
+* Github är ett publikt repository
+* Principen är öppen lagring gratis - betala för sluten
 * git är inte github
 
 <img src="http://1.bp.blogspot.com/-WY2YpNr3W6g/UY6tZAc-H3I/AAAAAAAABLY/xJ9x3wIY8V8/s1600/Github2.png" width="30%" height="30%" />
@@ -47,40 +45,37 @@
 
 * ```http://git-scm.com/download``` krävs för tillgång till git i VS Code
 ---
-### Git config
-1. Öppna VS Code från given mapp
-1. Klicka "Initialize Git Repository"
-1. Notis visar att förändringar väntar på att skrivas
-1. Öppna terminalfönstret (CTRL-ö) (```--global``` ger åtkomst i alla mappar)
-1. ```git config --global user.name "johansundstrom"```
+### Konfigurera git från Bash/PowerShell/Terminal/DOS-prompt
+1. Öppna terminal från given mapp
+1. ```git init``` (skapar lokalt dold repository för versionshantering  ```.git```-undermapp)
+1. ```git config --global user.name "johansundstrom"``` ( ```--global``` ger åtkomst i alla mappar)
 1. ```git config --global user.email "johan.sundstrom@mdh.se"```
-1. ```git config user.name```
-1. ```git config user.email```
-1. ```git config --list```
-1. ```git config --global user.name "ninja-johan"``` (change username)
+1. ```git config user.name``` ekar användarnamn
+1. ```git config user.email``` ekar epostadress
+1. ```git config --list``` listar inställningar
+1. ```git config --global user.name "ninja-johan"``` (ändrar username)
 1. ```git config --global color.ui auto``` (färg UI)
-
-### Skapa _repository_ lokalt
-```git init``` (skapar förutsättning för versionshantering med dold ```.git```-undermapp)
-
+### Konfigurera git från VS Code
+* Klicka ```Initialize Git Repository``` i VS Code eller...
+* Öppna VS Code's interna terminalfönster (CTRL-ö) och skriv terminalkommandon
 ----
 # Versionshantering
 ## Tre _stages_
 <img src="https://git-scm.com/images/about/index1@2x.png" width="30%" height="30%" />
 
 (bild: github.com)
-1. **Modified** (redigerad fil upptäckt [röd])
-2. **Staged** (märkt för att bli committed [gul])
-3. **Committed** (säkert förvar i versionsdatabasen [grön])
+1. **Modified** - redigerad fil upptäckt (röd)
+2. **Staged** - fil(er) märkt för att bli committed (gul)
+3. **Committed** - säkert förvar i versionsdatabasen (grön)
 
-## Modify--->Stage--->Commit 
+## Modified--->Staged--->Committed
 Snabb beskrivning
 1. ```git add .``` (stage'ar allt)
 1. ```git status``` (visar status)
 1. ```git commit -m "commit message"``` (commit'ar allt)
 
 ### 1. Stage file(s)
-* ```git add file | directory | *.???? | .``` (fil | mapp | wildcard | alla)
+* ```git add file``` | ```directory``` | ```*.????``` | ```.``` - fil | mapp | wildcard | alla
 * ```git add xxx <-p>``` (visa diff) 
 * ```git reset HEAD [folder/file]``` (opposite of git add)
 
@@ -104,6 +99,9 @@ Snabb beskrivning
 * ```git mv oldname.file newname.file```
 ### Flyttar fil till mapp
 * ```git mv oldname.file folder/newname.file```
+
+
+Notis visar att förändringar väntar på att skrivas
 
 
 ### Visual Studio Code
