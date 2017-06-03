@@ -89,7 +89,6 @@ Snabb beskrivning
 
 ### 3. Add med Commit
 * ```git commit -am "meddelande"```
-
 * ```git log``` (visar full insyn)
 * ```git log (-p)``` (visar commit händelser, visar vad som ändrats)
 * ```git checkout -- <file>``` (återgå till sista commit)
