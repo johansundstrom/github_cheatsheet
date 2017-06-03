@@ -65,8 +65,8 @@
 
 (bild: github.com)
 1. **Modified** - redigerad fil upptäckt (röd)
-2. **Staged** - fil(er) märkt för att bli committed (gul)
-3. **Committed** - säkert förvar i versionsdatabasen (grön)
+2. **Staged** - fil(er) märkt(a) för att bli committed (gul)
+3. **Committed** - fil(er)säkert förvar i versionsdatabasen (grön)
 
 ## Modified--->Staged--->Committed
 Snabb beskrivning
@@ -77,17 +77,21 @@ Snabb beskrivning
 ### 1. Stage file(s)
 * ```git add file``` | ```directory``` | ```*.????``` | ```.``` - fil | mapp | wildcard | alla
 * ```git add xxx <-p>``` (visa diff) 
+### Unstage file(s)
 * ```git reset HEAD [folder/file]``` (opposite of git add)
-
 ### 2. Commit file(s)
 * ```git commit -m "commit message"``` 
-
+### Uncommit file(s)
+* ```jj```
 ### 3. Add med Commit
 * ```git commit -am "meddelande"```
+### 4. Visa logg
 * ```git log``` (visar full insyn)
 * ```git log (-p)``` (visar commit händelser, visar vad som ändrats)
-* ```git checkout -- <file>``` (återgå till sista commit)
 * ```git log author="joh"``` Visar alla commits från viss användare
+### 5. Backa till tidigare version
+* ```git checkout -- <file>``` (återgå till sista commit)
+
 ---
 ### Visa skillnader mellan arbetsfiler och repository
 * ```git diff (file)```
