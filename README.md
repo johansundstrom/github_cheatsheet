@@ -20,6 +20,7 @@
 
 <img src="https://crossbrowsertesting.com/design/images/github-logo.png" width="15%" height="15%" />
 
+(bild: github.com)
 * Centrala datalagringsplatser (fil- och databaser) kallas _repository_
 * github är ett publikt repository
 * git är inte github
