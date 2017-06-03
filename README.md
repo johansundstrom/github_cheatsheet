@@ -7,10 +7,10 @@
 
 (bild: git.scm.com)
 * git är ett versionshanteringsprogram
-* Version control - VCS (Version Control Systems) Subversion SVN är ett annat
+* git är ett Version control - VCS (Version Control Systems), Subversion SVN är ett annat
 * git är _Lightwheight_
 * Branch-based workflow (_branching_ och _merging_)
-* stödjer Traceability
+* stödjer Traceability, möjlight att backa tillbaka
 * Stödjer teams and projects, multiple deployments
 * Git är open source, skapat bl.a. av Linus Thorvalds 2005
 * Kan vara svårt att lära sig
