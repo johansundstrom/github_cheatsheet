@@ -51,7 +51,7 @@ https://mac.github.com
 1. Öppna VS Code från given mapp
 1. Klicka "Initialize Git Repository"
 1. Notis visar att förändringar väntar på att skrivas
-1. Öppna terminalfönstret (CTRL-ö) (--global ger åtkomst i alla mappar)
+1. Öppna terminalfönstret (CTRL-ö) (```--global``` ger åtkomst i alla mappar)
 1. ```git config --global user.name "johansundstrom"```
 1. ```git config --global user.email "johan.sundstrom@mdh.se"```
 1. ```git config user.name```
