@@ -164,7 +164,7 @@ f8a9f38 nya filer
 1. ```git branch delelop``` Skapar kopia av master branch i "delelop" branch (eller annat namn)
 2. ```git checkout delelop```byt till "develop" branch
 3. ...arbete sker nu i branch
-4. ```git checkout master``` byt till master branch
+4. ```git checkout master``` byt till master branch. Master är nu HEAD
 5. ```git merge delelop``` slår samman "develop" med master branch
 6. ```git branch -d delelop``` raderar "delelop" branch
 
@@ -173,6 +173,8 @@ f8a9f38 nya filer
 * ```git branch develop``` Skapar kopia av master i "delelop" (eller annat namn)
 ### Switch till Branch
 1. ```git checkout develop``` switch till "develop" branch
+* develop är nu aktuell _HEAD branch_
+* filerna i arbetskatalogen byts nu till de aktuella i develop branch
 2. ```git rm '*.txt'``` Raderar alla *.txt i "develop" branch 
 1. ```git commit -m "raderat alla *.txt"```
 ### Chechkout master
