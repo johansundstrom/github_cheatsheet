@@ -175,7 +175,7 @@ f8a9f38 nya filer
 1. ```git checkout develop``` switch till "develop" branch
 2. ```git rm '*.txt'``` Raderar alla *.txt i "develop" branch 
 1. ```git commit -m "raderat alla *.txt"```
-### Chechout master
+### Chechkout master
 * ```git checkout master``` - Switch till master branch
 ### Förbered för Merge
 * ```git merge develop``` - Slår samman
