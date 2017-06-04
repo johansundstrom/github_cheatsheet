@@ -136,16 +136,19 @@ f8a9f38 nya filer
 <img src="https://www.git-tower.com/learn/content/01-git/01-ebook/en/01-command-line/04-remote-repositories/01-introduction/basic-remote-workflow.png" width="50%" />
 
 ### Översikt kommandon
+#### Anslutningar
 * ```git remote add origin <url>``` - Samma url som på github (```origin``` är namnet på anslutningen)
 * ```git remote``` - Listar anslutningsnamn
-* ```git remote -v``` - Visar anslutningars url
+* ```git remote -v``` - Visar anslutningsnamn och URL
 * ```git remote rm <anslutningsnamn>``` - Raderar anslutning
-* ```git diff HEAD```  - Visar skillnader
-* ```git clone <url>```  - Skapar lokal mapp samt .git och hämtar remotefiler 
-* ```git fetch origin``` - Hämtar men 
-* ```git pull origin master``` (hämta, origin - anslutningens namn)
+#### Hämta till lokal repo från anslutning
+* ```git clone <url>```  - Skapar lokal mapp samt .git och hämtar filer från centralt repo
+* ```git fetch origin``` - Hämtar från origin (anslutningennamn) men uppdaterar INTE arbetsfiler (kräver omstart av t.ex. VS Code)
+* ```git pull origin master``` - Hämtar till master branch från origin (anslutningennamn)
+#### Skicka från lokal repo till central repo på given anslutning
 * ```git push```
 
+* ```git diff HEAD```  - Visar skillnader
 ### Hämta från extern repository
 * ```git remote add <name> <url>``` (skapar anslutning med namn)
 * ```git remote rename <old-name> <new-name>```
