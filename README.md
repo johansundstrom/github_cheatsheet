@@ -78,11 +78,11 @@ Snabb beskrivning
 ### 2. Commit file(s)
 * ```git commit -m "commit message"``` 
 ### Uncommit file(s)
-* ```git checkout -- <file>``` (återgå till sista commit)
-### 3. Special - Add med Commit
+* ```git checkout -- <file>``` (återgå till föregående commit)
+### 3. Special - Add med Commit (stage och commit samtidigt)
 * ```git commit -am "meddelande"```
 ### 4. Visa logg
-* ```git log``` (visar full insyn)
+* ```git log``` (visar alla commits och ID)
 * ```git log (-p)``` (visar commit händelser, visar vad som ändrats)
 * ```git log author="joh"``` Visar alla commits från viss användare
 ### 5. Backa till tidigare version
