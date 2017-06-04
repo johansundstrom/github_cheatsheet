@@ -162,7 +162,7 @@ f8a9f38 nya filer
 
 ### Snabbversionen - stegen
 1. ```git branch develop``` Skapar kopia av master branch i "develop" branch (eller annat namn)
-2. ```git checkout develop```byt till "develop" branch
+2. ```git checkout develop```switch till "develop" branch. develop branch är nu activ eller HEAD branch
 3. ...arbete sker nu i branch
 4. ```git checkout master``` byt till master branch. Master är nu HEAD
 5. ```git merge develop``` slår samman "develop" med master branch
