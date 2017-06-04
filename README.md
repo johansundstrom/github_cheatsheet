@@ -161,7 +161,7 @@ f8a9f38 nya filer
 (bild: https://backlogtool.com)
 
 ### Snabbversionen - stegen
-1. ```git branch delelop``` Skapar kopia av master branch i "delelop" branch (eller annat namn)
+1. ```git branch delelop``` Skapar kopia av master branch i "develop" branch (eller annat namn)
 2. ```git checkout delelop```byt till "develop" branch
 3. ...arbete sker nu i branch
 4. ```git checkout master``` byt till master branch. Master är nu HEAD
