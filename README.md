@@ -161,16 +161,16 @@ f8a9f38 nya filer
 (bild: https://backlogtool.com)
 
 ### Snabbversionen - stegen
-1. ```git branch delelop``` Skapar kopia av master branch i "develop" branch (eller annat namn)
-2. ```git checkout delelop```byt till "develop" branch
+1. ```git branch develop``` Skapar kopia av master branch i "develop" branch (eller annat namn)
+2. ```git checkout develop```byt till "develop" branch
 3. ...arbete sker nu i branch
 4. ```git checkout master``` byt till master branch. Master är nu HEAD
-5. ```git merge delelop``` slår samman "develop" med master branch
-6. ```git branch -d delelop``` raderar "delelop" branch
+5. ```git merge develop``` slår samman "develop" med master branch
+6. ```git branch -d develop``` raderar "develop" branch
 
 
 ### Skapa Branch 
-* ```git branch develop``` Skapar kopia av master i "delelop" (eller annat namn)
+* ```git branch develop``` Skapar kopia av master i "develop" (eller annat namn)
 ### Switch till Branch
 1. ```git checkout develop``` switch till "develop" branch
 * develop är nu aktuell _HEAD branch_
