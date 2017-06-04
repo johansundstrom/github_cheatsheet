@@ -70,7 +70,7 @@
 ### Snabb beskrivning
 1. ```git add .```  - Stage'ar allt
 1. ```git status``` - Visar status
-1. ```git commit -m "commit message"``` - Commit'ar allt
+1. ```git commit -m "commit message"``` - Commit (lagrar versionen)
 
 ### 1. Stage file/files
 * ```git add file``` | ```directory``` | ```*.????``` | ```.```  - fil | mapp | wildcard | alla
@@ -94,7 +94,7 @@
 2. ```fil``` | ```/folder``` | ```*.txt``` - Skriv namnen på filer, mappar eller fil med wildcards som inte ska ingå
 ---
 ### Visa skillnader mellan arbetsfiler och repository
-* ```git diff (file)```
+* ```git diff <file>```
 ### Visa skillnader mellan staged och repository
 * ```git diff --staged```
 ### Radera arbetsfiler och repository-filer
@@ -102,13 +102,13 @@
 ### Byt namn på fil
 * ```git mv oldname.file newname.file```
 ### Flyttar fil till mapp
-* ```git mv oldname.file folder/newname.file```
+* ```git mv oldplace.file folder/newplace.file```
 
 
 Notis visar att förändringar väntar på att skrivas
 
 
-### Visual Studio Code
+### Visual Studio Code <img src="https://image.apphit.com/image/visual-studio-code/visual-studio-code-logo.png" width="3%" height="3%" />
 * Ett ```M```indikerar modified
 * ```+``` öppnar _Stage_ ```A``` visas
 * Markera fil - _Stage_
@@ -136,13 +136,13 @@ f8a9f38 nya filer
 <img src="https://www.git-tower.com/learn/content/01-git/01-ebook/en/01-command-line/04-remote-repositories/01-introduction/basic-remote-workflow.png" width="50%" />
 
 ### Översikt kommandon
-* ```git remote add origin <url>``` (samma url som på github) 
-* ```git remote``` (listar anslutningar)
-* ```git remote -v``` (visar url)
-* ```git remote rm``` <name> (raderar anslutning)
-* ```git diff HEAD``` (visar skillnader)
-* ```git clone <url>``` (skapar mappar och -git och hämtar filer)
-* ```git fetch```
+* ```git remote add origin <url>``` - Samma url som på github (```origin``` är namnet på anslutningen)
+* ```git remote``` - Listar anslutningsnamn
+* ```git remote -v``` - Visar anslutningars url
+* ```git remote rm <anslutningsnamn>``` - Raderar anslutning
+* ```git diff HEAD```  - Visar skillnader
+* ```git clone <url>```  - Skapar lokal mapp samt .git och hämtar remotefiler 
+* ```git fetch origin``` - Hämtar men 
 * ```git pull origin master``` (hämta, origin - anslutningens namn)
 * ```git push```
 
