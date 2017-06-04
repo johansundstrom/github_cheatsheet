@@ -71,8 +71,8 @@ Snabb beskrivning
 1. ```git commit -m "commit message"``` (commit'ar allt)
 
 ### 1. Stage file(s)
-* ```git add file``` | ```directory``` | ```*.????``` | ```.``` - fil | mapp | wildcard | alla
-* ```git add xxx <-p>``` (visa diff) 
+* ```git add file``` | ```directory``` | ```*.????``` | ```.```  (fil | mapp | wildcard | alla)
+* ```git add file``` | ```directory``` | ```*.????``` | ```.``` ```<-p>``` (visa diff) 
 ### Unstage file(s)
 * ```git reset HEAD [folder/file]``` (opposite of git add)
 ### 2. Commit file(s)
