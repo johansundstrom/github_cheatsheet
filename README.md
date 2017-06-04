@@ -12,6 +12,7 @@
 * git är inte filversioner
 * Mål: _One rule only: master branch is always deployable_
 * _git_ is British slang för "_pig headed_, think they are always correct, argumentative" _wiki_
+* Läs mer på ```https://www.git-tower.com/learn/git/ebook```
 
 <img src="https://crossbrowsertesting.com/design/images/github-logo.png" width="15%" height="15%" />
 
@@ -26,7 +27,7 @@
 (bild: jahya.net)
 
 
-## Kom igång
+# Kom igång
 ### Installera <img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" width="5%" height="5%" />
 * ```http://git-scm.com/download``` (installera)
 ### Förbered <img src="https://crossbrowsertesting.com/design/images/github-logo.png" width="8%" height="8%" />
@@ -42,7 +43,7 @@
 * ```http://git-scm.com/download``` krävs för tillgång till git i VS Code
 * ```https://code.visualstudio.com/download``` 
 
-## Konfigurera git från Bash/PowerShell/Terminal/DOS-prompt/Cmder
+### Konfigurera git från Bash/PowerShell/Terminal/DOS-prompt/Cmder
 * ```http://git-scm.com/download``` - Installerar Bash-kommandoprompt (Linuxkommandon)
 * ```http://cmder.net``` - Bättre konsol
 1. Öppna terminal från given mapp
@@ -67,7 +68,7 @@
 2. **Staged** - fil(er) märkt(a) för att bli committed (gul)
 3. **Committed** - fil(er)säkert förvar i versionsdatabasen (grön)
 
-### Snabb beskrivning
+### Snabbversionen
 1. ```git add .```  - Stage'ar allt
 1. ```git status``` - Visar status
 1. ```git commit -m "commit message"``` - Commit (lagrar versionen)
@@ -131,61 +132,57 @@ f8a9f38 nya filer
 * Ett ```M```indikerar modified
 * Markera fil - _Clean_
 
-## Arbeta mot remote server
+# Arbeta mot remote repository
 
 <img src="https://www.git-tower.com/learn/content/01-git/01-ebook/en/01-command-line/04-remote-repositories/01-introduction/basic-remote-workflow.png" width="50%" />
 
-### Översikt kommandon
-#### Anslutningar
-* ```git remote add origin <url>``` - Samma url som på github (```origin``` är namnet på anslutningen)
+## Översikt kommandon
+### Anslutning(ar) - 'origin' är default anslutningsnamn
+* ```git remote add origin <url>``` - Använd URL från github.com (```origin``` är default anslutningsnamn)
+* ```git remote add <remote> <url>``` - Använd URL från github.com (```<remote>``` är anslutningsnamnet)
 * ```git remote``` - Listar anslutningsnamn
 * ```git remote -v``` - Visar anslutningsnamn och URL
-* ```git remote rm <anslutningsnamn>``` - Raderar anslutning
-#### Hämta till lokal repo från anslutning
+* ```git remote rm <remote>``` - Raderar anslutning 'remote'
+* ```git remote rename <old-remotename> <new-remotename>```
+### Hämta till lokal repo från anslutning
 * ```git clone <url>```  - Skapar lokal mapp samt .git och hämtar filer från centralt repo
-* ```git fetch origin``` - Hämtar från origin (anslutningennamn) men uppdaterar INTE arbetsfiler (kräver omstart av t.ex. VS Code)
-* ```git pull origin master``` - Hämtar till master branch från origin (anslutningennamn)
-#### Skicka från lokal repo till central repo på given anslutning
-* ```git push```
+* ```git fetch <remote>``` - Hämtar förändringar från origin men uppdaterar INTE arbetsfiler i HEAD (kräver omstart av t.ex. VS Code)
+* ```git pull <remote> <branch>``` - Hämtar förändringar från origin och uppdaterar arbetsfiler i HEAD
+### Skicka från lokal repo till central repo på given anslutning
+* ```git push <remote> <branch>``` - Publicera lokala förändringar på ett anslutningsnamn
+* ```git push -u <remote> <branch>``` - Parameter -u i minnet, git push nästa gång)
+### Manipulera remote
+* ```git branch -dr <remote/branch>``` - Radera remote branch
+* ```git diff HEAD```  - Visar skillnader i arbetsverktyget
 
-* ```git diff HEAD```  - Visar skillnader
-### Hämta från extern repository
-* ```git remote add <name> <url>``` (skapar anslutning med namn)
-* ```git remote rename <old-name> <new-name>```
-* ```git pull origin master```(hämtar senaste master från anslutning origin)
-origin remote (med git clone kallas anslutningen för origin)
-* ```git push -u origin master```(-u parametrar i minnet, git push nästa gång)
-
-## Branch - Merge
+# Branch - Merge
 <img src="https://backlogtool.com/git-guide/en/img/post/stepup/capture_stepup1_5_6.png" width="60%" height="60%" />
 
 (bild: https://backlogtool.com)
 
-### Snabb beskrivning - stegen
-1. ```git branch delelop``` Skapar kopia av master i "delelop", eller annat namn
-2. ```git checkout delelop```byt till branch "develop"
+### Snabbversionen - stegen
+1. ```git branch delelop``` Skapar kopia av master branch i "delelop" branch (eller annat namn)
+2. ```git checkout delelop```byt till "develop" branch
 3. ...arbete sker nu i branch
-4. ```git checkout master``` byt till master
-5. ```git merge delelop``` slår samman "develop" med master
-6. ```git branch -d delelop``` raderar branch "delelop"
+4. ```git checkout master``` byt till master branch
+5. ```git merge delelop``` slår samman "develop" med master branch
+6. ```git branch -d delelop``` raderar "delelop" branch
 
 
 ### Skapa Branch 
-* ```git branch delelop``` Skapar kopia av master i "delelop" eller annat namn
+* ```git branch develop``` Skapar kopia av master i "delelop" (eller annat namn)
 ### Switch till Branch
-1. ```git checkout delelop``` switch till branch "develop"
-2. ```git rm '*.txt'``` Raderar alla *.txt i branch "delelop"
+1. ```git checkout develop``` switch till "develop" branch
+2. ```git rm '*.txt'``` Raderar alla *.txt i "develop" branch 
 1. ```git commit -m "raderat alla *.txt"```
 ### Chechout master
-* ```git checkout master``` (switch till master)
+* ```git checkout master``` - Switch till master branch
 ### Förbered för Merge
-* ```git merge delelop``` (slår samman)
+* ```git merge develop``` - Slår samman
 ### Branch städning
-* ```git branch -d delelop``` (raderar branch delelop)
-### Slutlig upload to repository
+* ```git branch -d develop``` (raderar branch develop)
+### Slutlig upload till repository
 * ```git push```
-
-git pull ()
 
 
 1) git pull (ändringar?)
