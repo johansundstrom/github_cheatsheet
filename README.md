@@ -1,15 +1,12 @@
 # Om G I T - av johan sundström
-
 ## git och github
----
-
 <img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" width="10%" height="10%" />
 
 (bild: git.scm.com)
 * _git_ är ett versionshanteringsprogram VCS (Version Control System), _Subversion_ (SVN) är ett annat
 * Versionshantering innebär stöd för _traceability_, möjligheten att backa till tidigare versioner
 * Stödjer flera användare i ett team eller projekt genom branch-based workflow (_branching_ och _merging_)
-* Är de facto standard och _lightwheight_ 
+* Är de facto _standard_ och benämns vara _lightwheight_ 
 * _Open source_, skapat bl.a. av Linus Thorvalds 2005
 * Kan vara svårt att lära sig
 * Mål: _One rule only: master branch is always deployable_
@@ -27,11 +24,11 @@
 
 (bild: jahya.net)
 
----
+
 ## Kom igång
-### Installera git
+### Installera <img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" width="5%" height="5%" />
 * ```http://git-scm.com/download``` (installera)
-### Förbered github
+### Förbered <img src="https://crossbrowsertesting.com/design/images/github-logo.png" width="8%" height="8%" />
 * Registrera konto på ```https://github.com``` och logga in
 
 ### GUI tools (rekommenderas ej)
@@ -40,15 +37,14 @@
 * GitHub for Mac
 ```https://mac.github.com```
 
-### VS Code och git
-<img src="https://image.apphit.com/image/visual-studio-code/visual-studio-code-logo.png" width="5%" height="5%" />
-
+### VS Code och git <img src="https://image.apphit.com/image/visual-studio-code/visual-studio-code-logo.png" width="3%" height="3%" />
 * ```http://git-scm.com/download``` krävs för tillgång till git i VS Code
----
-### Konfigurera git från Bash/PowerShell/Terminal/DOS-prompt
+* ```https://code.visualstudio.com/download``` 
+
+## Konfigurera git från Bash/PowerShell/Terminal/DOS-prompt/Cmder
 1. Öppna terminal från given mapp
 1. ```git init``` (skapar lokalt dold repository för versionshantering  ```.git```-undermapp)
-1. ```git config --global user.name "johansundstrom"``` ( ```--global``` ger åtkomst i alla mappar)
+1. ```git config --global user.name "johansundstrom"``` ( ```--global``` ger åtkomst i alla projektmappar)
 1. ```git config --global user.email "johan.sundstrom@mdh.se"```
 1. ```git config user.name``` ekar användarnamn
 1. ```git config user.email``` ekar epostadress
@@ -58,9 +54,9 @@
 ### Konfigurera git från VS Code
 * Klicka ```Initialize Git Repository``` i VS Code eller...
 * Öppna VS Code's interna terminalfönster (CTRL-ö) och skriv terminalkommandon
-----
+
 # Versionshantering
-## Tre _stages_
+### Tre _stages_
 <img src="https://git-scm.com/images/about/index1@2x.png" width="30%" height="30%" />
 
 (bild: github.com)
