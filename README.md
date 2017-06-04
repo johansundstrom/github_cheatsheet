@@ -7,8 +7,9 @@
 * Versionshantering innebär stöd för _traceability_, möjligheten att backa till tidigare versioner
 * Stödjer flera användare i ett team eller projekt genom branch-based workflow (_branching_ och _merging_)
 * Är de facto _standard_ och benämns vara _lightwheight_ 
-* _Open source_, skapat bl.a. av Linus Thorvalds 2005
+* _Open source_, skapat av Linus Thorvalds 2005
 * Kan vara svårt att lära sig
+* git är inte filversioner
 * Mål: _One rule only: master branch is always deployable_
 * _git_ is British slang för "_pig headed_, think they are always correct, argumentative" _wiki_
 
@@ -37,26 +38,28 @@
 * GitHub for Mac
 ```https://mac.github.com```
 
-### VS Code och git <img src="https://image.apphit.com/image/visual-studio-code/visual-studio-code-logo.png" width="3%" height="3%" />
+### git och VS Code <img src="https://image.apphit.com/image/visual-studio-code/visual-studio-code-logo.png" width="3%" height="3%" />
 * ```http://git-scm.com/download``` krävs för tillgång till git i VS Code
 * ```https://code.visualstudio.com/download``` 
 
 ## Konfigurera git från Bash/PowerShell/Terminal/DOS-prompt/Cmder
+* ```http://git-scm.com/download``` - Installerar Bash-kommandoprompt (Linuxkommandon)
+* ```http://cmder.net``` - Bättre konsol
 1. Öppna terminal från given mapp
-1. ```git init``` (skapar lokalt dold repository för versionshantering  ```.git```-undermapp)
-1. ```git config --global user.name "johansundstrom"``` ( ```--global``` ger åtkomst i alla projektmappar)
+1. ```git init``` - Skapa lokalt repository (dold) för versionshantering i ```.git```-undermapp
+1. ```git config --global user.name "johansundstrom"``` - Tillägget ```--global``` ger åtkomst i alla projektmappar
 1. ```git config --global user.email "johan.sundstrom@mdh.se"```
-1. ```git config user.name``` ekar användarnamn
-1. ```git config user.email``` ekar epostadress
-1. ```git config --list``` listar inställningar
-1. ```git config --global user.name "ninja-johan"``` (ändrar username)
-1. ```git config --global color.ui auto``` (färg UI)
+1. ```git config user.name``` - Ekar användarnamn
+1. ```git config user.email``` - Ekar epostadress
+1. ```git config --list``` - Listar inställningar
+1. ```git config --global user.name "ninja-johan"``` - Ändrar username
+1. ```git config --global color.ui auto``` - Färg UI
 ### Konfigurera git från VS Code
-* Klicka ```Initialize Git Repository``` i VS Code eller...
-* Öppna VS Code's interna terminalfönster (CTRL-ö) och skriv terminalkommandon
+* Klicka ```Initialize Repository``` i VS Code eller...
+* Öppna VS Code's interna terminalfönster (CTRL-ö) och skriv konsolkommandon
 
 # Versionshantering
-### Tre _stages_
+### Tre _stages_: Modified ---> Staged ---> Committed
 <img src="https://git-scm.com/images/about/index1@2x.png" width="30%" height="30%" />
 
 (bild: github.com)
@@ -64,30 +67,31 @@
 2. **Staged** - fil(er) märkt(a) för att bli committed (gul)
 3. **Committed** - fil(er)säkert förvar i versionsdatabasen (grön)
 
-## Modified--->Staged--->Committed
-Snabb beskrivning
-1. ```git add .``` (stage'ar allt)
-1. ```git status``` (visar status)
-1. ```git commit -m "commit message"``` (commit'ar allt)
+### Snabb beskrivning
+1. ```git add .```  - Stage'ar allt
+1. ```git status``` - Visar status
+1. ```git commit -m "commit message"``` - Commit'ar allt
 
-### 1. Stage file(s)
-* ```git add file``` | ```directory``` | ```*.????``` | ```.```  (fil | mapp | wildcard | alla)
-* ```git add file``` | ```directory``` | ```*.????``` | ```.``` ```<-p>``` (visa diff) 
-### Unstage file(s)
-* ```git reset HEAD [folder/file]``` (opposite of git add)
+### 1. Stage file/files
+* ```git add file``` | ```directory``` | ```*.????``` | ```.```  - fil | mapp | wildcard | alla
+* ```git add file``` | ```directory``` | ```*.????``` | ```.``` ```<-p>``` - Visa diff
+### Unstage file/files
+* ```git reset HEAD file``` | ```path/file``` - Motsats till 'git add' (HEAD är angiven branch)
 ### 2. Commit file(s)
-* ```git commit -m "commit message"``` 
+* ```git commit -m 'commit message'``` 
 ### Uncommit file(s)
-* ```git checkout -- <file>``` (återgå till föregående commit)
+* ```git checkout -- file``` - Återgå till fil i föregående commit
 ### 3. Special - Add med Commit (stage och commit samtidigt)
-* ```git commit -am "meddelande"```
+* ```git commit -am 'commit message'```
 ### 4. Visa logg
-* ```git log``` (visar alla commits och ID)
-* ```git log (-p)``` (visar commit händelser, visar vad som ändrats)
-* ```git log author="joh"``` Visar alla commits från viss användare
+* ```git log``` - Visar alla commits och ID
+* ```git log (-p)``` - Visar commit händelser, visar vad som ändrats
+* ```git log author="joh"``` - Visar alla commits från viss användare
 ### 5. Backa till tidigare version
-* ```git checkout -- <file>``` (återgå till sista commit)
-
+* ```git checkout -- <file>``` - Återgå till sista commit
+### 6. .gitignore - fil eller mapp som inte ska behandlas av versionsystemet
+1. ```touch .gitignore``` - Skapa filen .gitignore
+2. ```fil``` | ```/folder``` | ```*.txt``` - Skriv namnen på filer, mappar eller fil med wildcards som inte ska ingå
 ---
 ### Visa skillnader mellan arbetsfiler och repository
 * ```git diff (file)```
@@ -128,6 +132,9 @@ f8a9f38 nya filer
 * Markera fil - _Clean_
 
 ## Arbeta mot remote server
+
+<img src="https://www.git-tower.com/learn/content/01-git/01-ebook/en/01-command-line/04-remote-repositories/01-introduction/basic-remote-workflow.png" width="50%" />
+
 ### Översikt kommandon
 * ```git remote add origin <url>``` (samma url som på github) 
 * ```git remote``` (listar anslutningar)
@@ -147,25 +154,31 @@ origin remote (med git clone kallas anslutningen för origin)
 * ```git push -u origin master```(-u parametrar i minnet, git push nästa gång)
 
 ## Branch - Merge
-Snabb beskrivning
-1. ```git branch <new-idea>``` (Skapar kopia av master i new-idea)
-2. ```git checkout <new-idea>```(switch till branch)
-3. ...arbete i branch
-4. ```git checkout master``` (switch till master)
-5. ```git merge <new-idea>``` (slår samman)
-6. ```git branch -d <new-idea>``` (raderar branch <new-idea>)
+<img src="https://backlogtool.com/git-guide/en/img/post/stepup/capture_stepup1_5_6.png" width="60%" height="60%" />
+
+(bild: https://backlogtool.com)
+
+### Snabb beskrivning - stegen
+1. ```git branch delelop``` Skapar kopia av master i "delelop", eller annat namn
+2. ```git checkout delelop```byt till branch "develop"
+3. ...arbete sker nu i branch
+4. ```git checkout master``` byt till master
+5. ```git merge delelop``` slår samman "develop" med master
+6. ```git branch -d delelop``` raderar branch "delelop"
+
+
 ### Skapa Branch 
-* ```git branch <new-idea>``` (Skapar kopia av master i new-idea)
+* ```git branch delelop``` Skapar kopia av master i "delelop" eller annat namn
 ### Switch till Branch
-1. ```git checkout <new-idea>```(switch till branch)
-2. ```git rm '*.txt'```(Raderar alla *.txt i branch new-idea)
+1. ```git checkout delelop``` switch till branch "develop"
+2. ```git rm '*.txt'``` Raderar alla *.txt i branch "delelop"
 1. ```git commit -m "raderat alla *.txt"```
 ### Chechout master
 * ```git checkout master``` (switch till master)
 ### Förbered för Merge
-* ```git merge <new-idea>``` (slår samman)
+* ```git merge delelop``` (slår samman)
 ### Branch städning
-* ```git branch -d <new-idea>``` (raderar branch <new-idea>)
+* ```git branch -d delelop``` (raderar branch delelop)
 ### Slutlig upload to repository
 * ```git push```
 
