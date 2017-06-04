@@ -78,8 +78,8 @@ Snabb beskrivning
 ### 2. Commit file(s)
 * ```git commit -m "commit message"``` 
 ### Uncommit file(s)
-* ```jj```
-### 3. Add med Commit
+* ```git checkout -- <file>``` (återgå till sista commit)
+### 3. Special - Add med Commit
 * ```git commit -am "meddelande"```
 ### 4. Visa logg
 * ```git log``` (visar full insyn)
