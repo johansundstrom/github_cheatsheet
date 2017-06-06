@@ -9,8 +9,8 @@
 * Är de facto _standard_ och benämns vara _lightwheight_ 
 * _Open source_, skapat av Linus Thorvalds 2005
 * Kan vara svårt att lära sig
-* git är inte filversioner
-* Mål: _One rule only: master branch is always deployable_
+* git är inte filversioner 
+* Mål: _One rule only: master branch is always deployable_ - man utvecklar i en branch
 * _git_ is British slang för "_pig headed_, think they are always correct, argumentative" _wiki_
 * Läs mer på ```https://www.git-tower.com/learn/git/ebook```
 
@@ -18,7 +18,7 @@
 
 (bild: github.com)
 * Centrala datalagringsplatser (fil- och databaser) kallas _repository_ eller 
-* Github är ett publikt repository
+* Github är ett publikt repository och kan redigeras via webb
 * Principen är öppen lagring gratis - betala för sluten
 * git är inte github
 
@@ -46,6 +46,7 @@
 ### Konfigurera git från Bash/PowerShell/Terminal/DOS-prompt/Cmder
 * ```http://git-scm.com/download``` - Installerar Bash-kommandoprompt (Linuxkommandon)
 * ```http://cmder.net``` - Bättre konsol
+* Öppna VS Code's interna terminalfönster (CTRL-ö) och skriv konsolkommandon
 1. Öppna terminal från given mapp
 1. ```git init``` - Skapa lokalt repository (dold) för versionshantering i ```.git```-undermapp
 1. ```git config --global user.name "johansundstrom"``` - Tillägget ```--global``` ger åtkomst i alla projektmappar
