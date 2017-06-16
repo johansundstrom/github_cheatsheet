@@ -72,7 +72,7 @@
 ### Snabbversionen
 1. ```git add .```  - Stage'ar allt
 1. ```git status``` - Visar status
-1. ```git commit -m "commit message"``` - Commit (lagrar versionen)
+1. ```git commit -m 'commit message'``` - Commit (lagrar versionen)
 
 ### 1. Stage file/files
 * ```git add file``` | ```directory``` | ```*.????``` | ```.```  - fil | mapp | wildcard | alla
