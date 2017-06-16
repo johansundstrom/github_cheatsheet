@@ -159,7 +159,7 @@ f8a9f38 nya filer
 # Branch - Merge
 <img src="https://backlogtool.com/git-guide/en/img/post/stepup/capture_stepup1_5_6.png" width="60%" height="60%" />
 
-(bild: https://backlogtool.com)
+(bild: backlogtool.com)
 
 ### Snabbversionen - stegen
 1. ```git branch develop``` Skapar kopia av master branch i "develop" branch (eller annat namn)
