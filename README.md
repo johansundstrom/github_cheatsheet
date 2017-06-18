@@ -5,11 +5,11 @@
 (bild: git.scm.com)
 * _git_ är ett versionshanteringsprogram VCS (Version Control System), _Subversion_ (SVN) är ett annat
 * Versionshantering innebär stöd för _traceability_, möjligheten att backa till tidigare versioner
+* _git_ är inte filversioner 
 * Stödjer flera användare i ett team eller projekt genom branch-based workflow (_branching_ och _merging_)
 * Är de facto _standard_ och benämns vara _lightwheight_ 
 * _Open source_, skapat av Linus Thorvalds 2005
 * Kan vara svårt att lära sig
-* git är inte filversioner 
 * Mål: _One rule only: master branch is always deployable_ - man utvecklar i en branch
 * _git_ is British slang för "_pig headed_, think they are always correct, argumentative" _wiki_
 * Läs mer på ```https://www.git-tower.com/learn/git/ebook```
@@ -17,7 +17,7 @@
 <img src="https://crossbrowsertesting.com/design/images/github-logo.png" width="15%" height="15%" />
 
 (bild: github.com)
-* Centrala datalagringsplatser (fil- och databaser) kallas _repository_
+* Centrala datalagringsplatser (fil- och databaser) kallas _repository_ ibland _repo's_
 * Github är ett publikt repository och kan redigeras via webb
 * Principen är öppen lagring gratis - betala för sluten
 * git är inte github
@@ -28,9 +28,9 @@
 
 
 # Kom igång
-### Installera <img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" width="5%" height="5%" />
+### Installera <img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" width="10%" height="10%" />
 * ```http://git-scm.com/download``` (installera)
-### Förbered <img src="https://crossbrowsertesting.com/design/images/github-logo.png" width="8%" height="8%" />
+### Förbered <img src="https://crossbrowsertesting.com/design/images/github-logo.png" width="15%" height="15%" />
 * Registrera konto på ```https://github.com``` och logga in
 
 ### GUI tools (rekommenderas ej)
@@ -69,7 +69,7 @@
 2. **Staged** - fil(er) märkt(a) för att bli committed (gul)
 3. **Committed** - fil(er)säkert förvar i versionsdatabasen (grön)
 
-### Snabbversionen
+### Snabbversion
 1. ```git add .```  - Stage'ar allt
 1. ```git status``` - Visar status
 1. ```git commit -m 'commit message'``` - Commit (lagrar versionen)
@@ -89,11 +89,9 @@
 * ```git log``` - Visar alla commits och ID
 * ```git log (-p)``` - Visar commit händelser, visar vad som ändrats
 * ```git log author="joh"``` - Visar alla commits från viss användare
-### 5. Backa till tidigare version
-* ```git checkout -- <file>``` - Återgå till sista commit
-### 6. .gitignore - fil eller mapp som inte ska behandlas av versionsystemet
-1. ```touch .gitignore``` - Skapa filen .gitignore
-2. ```fil``` | ```/folder``` | ```*.txt``` - Skriv namnen på filer, mappar eller fil med wildcards som inte ska ingå
+### 5. .gitignore - fil eller mapp som inte ska behandlas av versionsystemet
+1. ```touch .gitignore``` - Skapa filen ```.gitignore```
+2. ```fil``` | ```/folder``` | ```*.txt``` - Lista vad som inte ska ingå (ett entry/rad)
 ---
 ### Visa skillnader mellan arbetsfiler och repository
 * ```git diff <file>```
@@ -137,10 +135,14 @@ f8a9f38 nya filer
 
 <img src="https://www.git-tower.com/learn/content/01-git/01-ebook/en/01-command-line/04-remote-repositories/01-introduction/basic-remote-workflow.png" width="50%" />
 
+### Snabbversion
+1. ```git clone <url>```  - Skapar lokal mapp samt .git och hämtar filer från centralt repo
+2. ```git pull <remote> <branch>``` - Hämtar förändringar från origin och uppdaterar arbetsfiler i HEAD
+3. ```git push <remote> <branch>``` - Publicera lokala förändringar på ett anslutningsnamn
 ## Översikt kommandon
 ### Anslutning(ar) - 'origin' är default anslutningsnamn
 * ```git remote add origin <url>``` - Använd URL från github.com (```origin``` är default anslutningsnamn)
-* ```git remote add <remote> <url>``` - Använd URL från github.com (```<remote>``` är anslutningsnamnet)
+* ```git remote add <remote> <url>``` - Använd url från github.com (```<remote>``` är anslutningsnamnet)
 * ```git remote``` - Listar anslutningsnamn
 * ```git remote -v``` - Visar anslutningsnamn och URL
 * ```git remote rm <remote>``` - Raderar anslutning 'remote'
