@@ -3,11 +3,12 @@
 <img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" width="10%" height="10%" />
 
 (bild: git.scm.com)
+* Som ersättning för omöjliga versionshanteringar på finnivå skapades Versionshanteringsprogram
 * _git_ är ett versionshanteringsprogram VCS (Version Control System), _Subversion_ (SVN) är ett annat
 * Versionshantering innebär stöd för _traceability_, möjligheten att backa till tidigare versioner
-* _git_ är inte filversioner 
+* _git_ är inte filversioner
 * Stödjer flera användare i ett team eller projekt genom branch-based workflow (_branching_ och _merging_)
-* Är de facto _standard_ och benämns vara _lightwheight_ 
+* Är de facto _standard_ och benämns vara _lightwheight_
 * _Open source_, skapat av Linus Thorvalds 2005
 * Kan vara svårt att lära sig
 * Mål: _One rule only: master branch is always deployable_ - man utvecklar i en branch
@@ -41,7 +42,7 @@
 
 ### git och VS Code <img src="https://image.apphit.com/image/visual-studio-code/visual-studio-code-logo.png" width="3%" height="3%" />
 * ```http://git-scm.com/download``` krävs för tillgång till git i VS Code
-* ```https://code.visualstudio.com/download``` 
+* ```https://code.visualstudio.com/download```
 
 ### Konfigurera git från Bash/PowerShell/Terminal/DOS-prompt/Cmder
 * ```http://git-scm.com/download``` - Installerar Bash-kommandoprompt (Linuxkommandon)
@@ -80,7 +81,7 @@
 ### Unstage file/files
 * ```git reset HEAD file``` | ```path/file``` - Motsats till 'git add' (HEAD är aktuell branch)
 ### 2. Commit file(s)
-* ```git commit -m 'commit message'``` 
+* ```git commit -m 'commit message'```
 ### Uncommit file(s)
 * ```git checkout -- file``` - Återgå till fil i föregående commit
 ### 3. Special - Add med Commit (stage och commit samtidigt)
@@ -120,13 +121,13 @@ output från ovanstående
 ```
 d8362b7 upd (commit meddelanden...)
 f8a9f38 nya filer
-64116aa update 
+64116aa update
 ```
 * ```git checkout f8a9f38 -- filename.ext```
-* ```git status``` 
-* ```git checkout master``` 
+* ```git status```
+* ```git checkout master```
 * ```git checkout -- <fil>``` (återgår till sista commit)
-* ```git status``` 
+* ```git status```
 ### Med Visual Studio Code
 * Ett ```M```indikerar modified
 * Markera fil - _Clean_
@@ -172,13 +173,13 @@ f8a9f38 nya filer
 6. ```git branch -d develop``` raderar "develop" branch
 
 
-### Skapa Branch 
+### Skapa Branch
 * ```git branch develop``` Skapar kopia av master i "develop" (eller annat namn)
 ### Switch till Branch
 1. ```git checkout develop``` switch till "develop" branch
 * develop är nu aktuell _HEAD branch_
 * filerna i arbetskatalogen byts nu till de aktuella i develop branch
-2. ```git rm '*.txt'``` Raderar alla *.txt i "develop" branch 
+2. ```git rm '*.txt'``` Raderar alla *.txt i "develop" branch
 1. ```git commit -m "raderat alla *.txt"```
 ### Chechkout master
 * ```git checkout master``` - Switch till master branch
