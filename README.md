@@ -1,4 +1,4 @@
-# Om G I T - av johan sundström!
+# Om G I T - av johan sundström
 ## git och github
 <img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" width="10%" height="10%" />
 
@@ -11,7 +11,7 @@
 * Är de facto _standard_ och benämns vara _lightwheight_
 * _Open source_, skapat av Linus Thorvalds 2005
 * Kan vara svårt att lära sig
-* Mål: _One rule only: master branch is always deployable_ - man utvecklar i en branch
+* Mål: _master branch - always deployable_ - deploy i Master branch, utveckling i annan branch
 * _git_ is British slang för "_pig headed_, think they are always correct, argumentative" _wiki_
 * Läs mer på ```https://www.git-tower.com/learn/git/ebook```
 
@@ -20,7 +20,7 @@
 (bild: github.com)
 * Centrala datalagringsplatser (fil- och databaser) kallas _repository_ ibland _repo's_
 * Github är ett publikt repository och kan redigeras via webb
-* Principen är öppen lagring gratis - betala för sluten
+* Principen är öppen lagring gratis - betala för privat
 * git är inte github
 
 <img src="http://1.bp.blogspot.com/-WY2YpNr3W6g/UY6tZAc-H3I/AAAAAAAABLY/xJ9x3wIY8V8/s1600/Github2.png" width="30%" height="30%" />
@@ -46,7 +46,7 @@
 
 ### Konfigurera git från Bash/PowerShell/Terminal/DOS-prompt/Cmder
 * ```http://git-scm.com/download``` - Installerar Bash-kommandoprompt (Linuxkommandon)
-* ```http://cmder.net``` - Bättre konsol
+* ```http://cmder.net``` - Bättre konsol med Linuxkommandon på Windows
 * Öppna VS Code's interna terminalfönster (CTRL-ö) och skriv konsolkommandon
 1. Öppna terminal från given mapp
 1. ```git init``` - Skapa lokalt repository (dold) för versionshantering i ```.git```-undermapp
