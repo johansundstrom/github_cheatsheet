@@ -79,7 +79,7 @@
 * ```git add file``` | ```directory``` | ```*.????``` | ```.```  - fil | mapp | wildcard | alla
 * ```git add file``` | ```directory``` | ```*.????``` | ```.``` ```<-p>``` - Visa diff
 ### Unstage file/files
-* ```git reset HEAD file``` | ```path/file``` - Motsats till 'git add' (HEAD är aktuell branch)
+* ```git reset HEAD -- file``` | ```path/file``` - Motsats till 'git add' (HEAD är aktuell branch)
 ### 2. Commit file(s)
 * ```git commit -m 'commit message'```
 ### Uncommit file(s)
