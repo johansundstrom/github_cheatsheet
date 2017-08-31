@@ -22,7 +22,7 @@
 15. Sänd ```ls```
 16. Bevaka Finder eller Filutforskaren vid bytet
 17. Notera att endast filer från Master existerar
-18. ```git checkout new_feature``` Byt till Master
+18. ```git checkout new_feature``` Byt till New_Feature
 19. Sänd ```ls```
 20. Notera att filer från Master och New_Feature existerar
 ### Use cases
