@@ -3,7 +3,7 @@
 <img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" width="10%" height="10%" />
 
 (bild: git.scm.com)
-* Som ersättning för omöjliga versionshanteringar på finnivå skapades Versionshanteringsprogram
+* Som ersättning för omöjliga versionshanteringar på filnivå skapades Versionshanteringsprogram
 * _git_ är ett versionshanteringsprogram VCS (Version Control System), _Subversion_ (SVN) är ett annat
 * Versionshantering innebär stöd för _traceability_, möjligheten att backa till tidigare versioner
 * _git_ är inte filversioner
