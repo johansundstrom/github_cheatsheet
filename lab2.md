@@ -5,8 +5,8 @@
 ### Setup
 1. Bekräfta nuvarande branch med ```git branch```
 2. Skapa ny branch med ```git branch develop```
-3. ```git branch``` Notera grenarna
-4. ```git branch -D develop``` Raderar branch
+3. ```git branch``` notera grenarna
+4. ```git branch -D develop``` raderar branch
 5. ```git branch -m new_feature``` döper om aktuell branch
 6. ```git checkout new_feature``` Byter till branch New_Feature
 7. ```git branch``` Notera aktuell gren
@@ -28,3 +28,10 @@
 ### Use cases
 21. Besvara: Skapa en branch-struktur som passar tre personer med varsin del i utvecklingsprojektet. Master ska alltid vara deployable
 22. Besvara: Skapa en passande branch-struktur  där det finns utrymme för att arbeta med en alpha- och en beta-version av utvecklingsprojektet. Master ska alltid vara deployable
+### Merge branch
+23. ```git checkout master``` Byt till Master
+24. ```git merge new_feature``` Notera eventuella konflikter
+25. Vid konflikt: Oppna filen och lös problemet
+### Radera branch
+26. ```git branch -d new_feature``` 
+27. ```git branch``` Kontrollera borttagen branch
