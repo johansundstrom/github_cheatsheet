@@ -3,11 +3,11 @@
 ## Samarbeten
 
 ### Setup
-1. Bekräfta nuvarande branch med ```git branch```
+1. Bekräfta att nuvarande branch är ```Master``` med ```git branch```
 2. Skapa ny branch med ```git branch develop```
 3. ```git branch``` Notera grenarna
 4. ```git branch -D develop``` Raderar branch
-5. ```git branch -m new_feature``` döper om aktuell branch
+5. ```git branch -m new_feature``` Döper om aktuell branch
 6. ```git checkout new_feature``` Byter till branch New_Feature
 7. ```git branch``` Notera aktuell gren
 
@@ -26,5 +26,5 @@
 19. Sänd ```ls```
 20. Notera att filer från Master och New_Feature existerar
 ### Use cases
-21. Besvara: Skapa en branch-struktur som passar tre personer med varsin del i utvecklingsprojektet. Master ska alltid vara deployable
-22. Besvara: Skapa en passande branch-struktur  där det finns utrymme för att arbeta med en alpha- och en beta-version av utvecklingsprojektet. Master ska alltid vara deployable
+21. Besvara: Skapa en branch-struktur som passar tre personer med varsin del i utvecklingsprojektet. Master ska alltid vara _deployable_
+22. Besvara: Skapa en passande branch-struktur  där det finns utrymme för att arbeta med en alpha- och en beta-version av utvecklingsprojektet. Master ska alltid vara _deployable_
