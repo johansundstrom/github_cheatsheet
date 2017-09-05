@@ -17,7 +17,7 @@
 4. Sänd ```touch index.html``` Skapar index.html
 5. Sänd ```ls```
 6. Sänd ```ls -l``` (lista rättigheter)
-The letters rwx stand for Read/Write/Execute permission. These rights are shown three times, first for the ```Owner```, then the ```Group``` and lastly ```Others``` (world) (benämns ibland 7 {1+2+4}). Första biten kan vara - (fil) eller d (katalog)
+Bokstäverna rwx står för Read/Write/Execute rättighet. Dessa visas tre gånger, först för ```Owner```, därefter ```Group``` och sist ```Others``` (world) (benämns ibland 7 {1+2+4}). Första biten kan vara - (fil) eller d (katalog)
 6. Sänd ```ls --full``` (lista allt)
 6. Sänd ```ls -a``` (lista dolda files)
 6. Sänd ```ls -a --full``` (lista allt och dolda filer)
