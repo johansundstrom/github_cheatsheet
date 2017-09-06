@@ -19,7 +19,7 @@
 
 (bild: github.com)
 * Centrala datalagringsplatser (fil- och databaser) kallas _repository_ ibland _repo's_
-* Github är ett publikt repository och kan redigeras via webb
+* Github är ett publikt repository och kan nås via webb
 * Principen är öppen lagring gratis - betala för privat
 * git är inte github
 
