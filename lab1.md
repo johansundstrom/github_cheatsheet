@@ -1,6 +1,7 @@
 # Lab 1
 
 ## Versionshantering
+Med versionshantering menas här att en mapp eller fil's innehåll kan finnas i olika versioner. Det är möjligt och också vanligt att backa till tidigare version om så behövs av någon anledning. 
 
 ### Setup
 1. ```http://git-scm.com/download``` (installera) Senaste release 2.14.1 (2017-08-04)
