@@ -68,7 +68,7 @@
 (bild: github.com)
 1. **Modified** - redigerad fil upptäckt (röd)
 2. **Staged** - fil(er) märkt(a) för att bli committed (gul)
-3. **Committed** - fil(er)säkert förvar i versionsdatabasen (grön)
+3. **Committed** - fil(er) i säkert förvar i versionsdatabasen (grön)
 
 ### Snabbversion
 1. ```git add .```  - Stage'ar allt
