@@ -1,6 +1,7 @@
 # Lab 2
 
 ## Samarbeten
+Med samarbeten menas här att flera utvecklare kan utveckla olika grenar av ett befintligt offentligt repo. När man uppnått en fullgod ny funktion så merge'ar man in dessa i offentliga samtidigt. Konsumenter kan hela tiden ladda ned och använda rådande version. 
 
 ### Setup
 1. Bekräfta att nuvarande branch är ```Master``` med ```git branch```
