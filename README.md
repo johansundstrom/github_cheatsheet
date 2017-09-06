@@ -30,7 +30,7 @@
 
 # Kom igång
 ### Installera <img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" width="10%" height="10%" />
-* ```http://git-scm.com/download``` (installera)
+* ```http://git-scm.com/download``` (installera med förvalda inställningar)
 ### Förbered <img src="https://crossbrowsertesting.com/design/images/github-logo.png" width="15%" height="15%" />
 * Registrera konto på ```https://github.com``` och logga in
 
