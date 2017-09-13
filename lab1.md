@@ -26,7 +26,7 @@ Bokstäverna rwx står för Read/Write/Execute rättighet. Dessa visas tre gång
 8. Vad har filen för filrättigheter?
 2. Läs om chmod ```https://ss64.com/bash/chmod.htm```
 ### Git
-13. ```git init``` Skapar repository
+13. ```git init``` Skapar lokalt repository
 6. Sänd ```ls -a``` 
 3. ```git status```
 3. Besvara: Vad har filen ```index.html``` för status (untracked | staged | committed ) och färg?
