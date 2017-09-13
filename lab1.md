@@ -5,8 +5,8 @@ Med versionshantering menas här att en mapp eller fil's innehåll kan finnas i 
 
 ### Setup
 1. ```http://git-scm.com/download``` (installera) Senaste release 2.14.1 (2017-08-04)
-2. Skapa mappen ```Mina Repositories``` i filsystemet
-2. Skapa mappen ```git_lab``` inuti ```Mina Projekt```
+2. Skapa mappen ```Mina Repos``` i filsystemet
+2. Skapa mappen ```git_lab``` inuti ```Mina Repos```
 3. Högerklicka mappen och välj ```Git Bash Here```
 3. ```git config --global user.name "johansundstrom"``` - Tillägget --global ger 
 åtkomst i alla projektmappar
