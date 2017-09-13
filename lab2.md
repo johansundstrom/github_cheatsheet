@@ -29,3 +29,4 @@ Med samarbeten menas här att flera utvecklare kan utveckla olika grenar av ett 
 ### Use cases
 21. Besvara: Skapa en branch-struktur som passar tre personer med varsin del i utvecklingsprojektet. Master ska alltid vara _deployable_
 22. Besvara: Skapa en passande branch-struktur  där det finns utrymme för att arbeta med en alpha- och en beta-version av utvecklingsprojektet. Master ska alltid vara _deployable_
+(C) Johan Sundström
