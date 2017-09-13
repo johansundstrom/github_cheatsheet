@@ -14,3 +14,6 @@
 3. ```git remote -v``` lista anslutningar verbose
 4. ```git remote``` lista anslutningar (```origin``` är standardnamn på anslutning)
 ### Hämta förändringar 
+... mer kommer
+
+(C) Johan Sundström
