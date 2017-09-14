@@ -1,23 +1,25 @@
 # Lab 1
 
 ## Versionshantering
+Med versionshantering menas här att en mapp eller fil's innehåll kan finnas i olika versioner. Det är möjligt och också vanligt att backa till tidigare version om så behövs av någon anledning. 
 
 ### Setup
 1. ```http://git-scm.com/download``` (installera) Senaste release 2.14.1 (2017-08-04)
-2. Skapa mappen ```Mina Repositories``` i filsystemet
-2. Skapa mappen ```git_lab``` inuti ```Mina Projekt```
+2. Skapa mappen ```Mina Repos``` i filsystemet
+2. Skapa mappen ```git_lab``` inuti ```Mina Repos```
 3. Högerklicka mappen och välj ```Git Bash Here```
 3. ```git config --global user.name "johansundstrom"``` - Tillägget --global ger 
 åtkomst i alla projektmappar
 3. ```git config --global user.email "johan.sundstrom@mdh.se"```
 3. ```git config --global color.ui auto``` - Färg UI
+3. ```git config --list``` Listar konfigurering
 
 ### Skapa fil
 4. Sänd ```ls``` (list) konstatera att det är tomt
 4. Sänd ```touch index.html``` Skapar index.html
 5. Sänd ```ls```
 6. Sänd ```ls -l``` (lista rättigheter)
-The letters rwx stand for Read/Write/Execute permission. These rights are shown three times, first for the ```Owner```, then the ```Group``` and lastly ```Others``` (world) (benämns ibland 7 {1+2+4}). Första biten kan vara - (fil) eller d (katalog)
+Bokstäverna rwx står för Read/Write/Execute rättighet. Dessa visas tre gånger, först för ```Owner```, därefter ```Group``` och sist ```Others``` (world). RWX benämns ibland 7 (1+2+4). Första biten kan vara - (fil) eller d (katalog)
 6. Sänd ```ls --full``` (lista allt)
 6. Sänd ```ls -a``` (lista dolda files)
 6. Sänd ```ls -a --full``` (lista allt och dolda filer)
@@ -25,15 +27,19 @@ The letters rwx stand for Read/Write/Execute permission. These rights are shown 
 8. Vad har filen för filrättigheter?
 2. Läs om chmod ```https://ss64.com/bash/chmod.htm```
 ### Git
-13. ```git init``` Skapar repository
+13. ```git init``` Skapar lokalt repository
 6. Sänd ```ls -a``` 
 3. ```git status```
 3. Besvara: Vad har filen ```index.html``` för status (untracked | staged | committed ) och färg?
 4. Besvara: Vilken branch är vi på?
 ### Redigera fil
+<<<<<<< HEAD
 18. Redigera filen ```index.html``` med t.ex. ```<html>...</html>``` och spara
 * Mac - ```open -a textedit index.html```
 * Windows - ```notepad index.html```
+=======
+18. Redigera filen ```index.html``` med t.ex. ```<html>...</html>``` och spara (Mac: ```open -a textedit index.html``` | Windows: ```notepad index.html```)
+>>>>>>> 9f2674b6a3bc0c974854fd1bc5c2b0a93d19835a
 ### Stage fil
 19. ```git add index.html```
 3. ```git status```

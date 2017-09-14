@@ -3,7 +3,7 @@
 <img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" width="10%" height="10%" />
 
 (bild: git.scm.com)
-* Som ersättning för omöjliga versionshanteringar på finnivå skapades Versionshanteringsprogram
+* Som ersättning för omöjliga versionshanteringar på filnivå skapades Versionshanteringsprogram
 * _git_ är ett versionshanteringsprogram VCS (Version Control System), _Subversion_ (SVN) är ett annat
 * Versionshantering innebär stöd för _traceability_, möjligheten att backa till tidigare versioner
 * _git_ är inte filversioner
@@ -19,7 +19,7 @@
 
 (bild: github.com)
 * Centrala datalagringsplatser (fil- och databaser) kallas _repository_ ibland _repo's_
-* Github är ett publikt repository och kan redigeras via webb
+* Github är ett publikt repository och kan nås via webb
 * Principen är öppen lagring gratis - betala för privat
 * git är inte github
 
@@ -30,7 +30,7 @@
 
 # Kom igång
 ### Installera <img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" width="10%" height="10%" />
-* ```http://git-scm.com/download``` (installera)
+* ```http://git-scm.com/download``` (installera med förvalda inställningar)
 ### Förbered <img src="https://crossbrowsertesting.com/design/images/github-logo.png" width="15%" height="15%" />
 * Registrera konto på ```https://github.com``` och logga in
 
@@ -68,7 +68,7 @@
 (bild: github.com)
 1. **Modified** - redigerad fil upptäckt (röd)
 2. **Staged** - fil(er) märkt(a) för att bli committed (gul)
-3. **Committed** - fil(er)säkert förvar i versionsdatabasen (grön)
+3. **Committed** - fil(er) i säkert förvar i versionsdatabasen (grön)
 
 ### Snabbversion
 1. ```git add .```  - Stage'ar allt
