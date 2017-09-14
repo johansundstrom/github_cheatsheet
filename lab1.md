@@ -61,6 +61,7 @@ Stage'a och commit'a ```index.html``` med meddelandet "Lagt till BODY"
 2. ```git log -p -2``` tillsammans med pil-upp/ned. visar innehållet som förändrats (avsluta med CTRL-C)
 ##### Återställ till  tidigare versioner
 38. ```git checkout <hash> index.html``` testa att skriva så få hash-tecken som möjligt, börja med första (från vänster)
+39. När git säger ```Prevoious HEAD was <hash>... HEAD is now at <hash>...``` har ny version lästs in
 3. ```git status```
 3. Besvara: Vad rapporterar git?
 3. Öppna filen ```index.html``` Återställd?
