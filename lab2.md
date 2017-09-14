@@ -35,7 +35,7 @@ Med samarbeten menas här att flera utvecklare kan utveckla olika grenar av ett 
 24. ```git checkout master``` Byt till Master branch
 25. ```ls``` Notera att ```content.txt``` INTE finns i ```Master```
 26. ```git merge new_feature``` Slår samman ```new_feature```med aktuell branch (```master```)
-27. ```ls``` Notera att ```content.txt``` finns i ```Master```
+27. ```ls``` Notera att ```content.txt``` FINNS i ```Master```
 
 ### Uppstädning
 28. ```git branch -d develop``` Raderar develop branch
