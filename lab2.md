@@ -8,6 +8,7 @@ Med samarbeten menas här att flera utvecklare kan utveckla olika grenar av ett 
 2. Skapa ny branch med ```git branch develop```
 3. ```git branch``` Notera grenarna
 4. ```git branch -D develop``` Raderar branch
+4. ```git branch develop``` Återskapar
 5. ```git branch -m new_feature``` Döper om aktuell branch
 6. ```git checkout new_feature``` Byter till branch New_Feature
 7. ```git branch``` Notera aktuell gren
