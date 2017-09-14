@@ -33,7 +33,7 @@ Med samarbeten menas här att flera utvecklare kan utveckla olika grenar av ett 
 ### Merge
 23. ```git branch``` Notera aktuell brach
 24. ```git checkout master``` Byt till Master branch
-25. ```git merge new_feature``` Slår samman ```new_feature```med ```master```
+25. ```git merge new_feature``` Slår samman ```new_feature```med aktuell branch (```master```)
 
 ### Uppstädning
 26. ```git branch -d develop``` Raderar develop branch
