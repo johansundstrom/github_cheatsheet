@@ -33,13 +33,15 @@ Med samarbeten menas här att flera utvecklare kan utveckla olika grenar av ett 
 ### Merge
 23. ```git branch``` Notera aktuell brach
 24. ```git checkout master``` Byt till Master branch
-25. ```git merge new_feature``` Slår samman ```new_feature```med aktuell branch (```master```)
+25. ```ls``` Notera att ```content.txt``` INTE finns i ```Master```
+26. ```git merge new_feature``` Slår samman ```new_feature```med aktuell branch (```master```)
+27. ```ls``` Notera att ```content.txt``` finns i ```Master```
 
 ### Uppstädning
-26. ```git branch -d develop``` Raderar develop branch
+28. ```git branch -d develop``` Raderar develop branch
 
 ### Use cases
-27. Besvara: Skapa en branch-struktur som passar tre personer med varsin del i utvecklingsprojektet. Master ska alltid vara _deployable_
-28. Besvara: Skapa en passande branch-struktur  där det finns utrymme för att arbeta med en alpha- och en beta-version av utvecklingsprojektet. Master ska alltid vara _deployable_
+29. Besvara: Skapa en branch-struktur som passar tre personer med varsin del i utvecklingsprojektet. Master ska alltid vara _deployable_
+30. Besvara: Skapa en passande branch-struktur  där det finns utrymme för att arbeta med en alpha- och en beta-version av utvecklingsprojektet. Master ska alltid vara _deployable_
 
 (C) Johan Sundström
