@@ -33,7 +33,7 @@ Bokstäverna rwx står för Read/Write/Execute rättighet. Dessa visas tre gång
 3. Besvara: Vad har filen ```index.html``` för status (untracked | staged | committed ) och färg?
 4. Besvara: Vilken branch är vi på?
 ### Redigera fil
-18. Redigera filen ```index.html``` med t.ex. ```<html>...</html>``` och spara (Mac: ```open -a textedit index.html``` | Windows: ```notepad index.html```).
+18. Redigera filen ```index.html``` med t.ex. ```<html>...</html>``` och spara (Mac: ```open -a textedit index.html``` | Windows: ```notepad index.html```)
 ### Stage fil
 19. ```git add index.html```
 3. ```git status```
