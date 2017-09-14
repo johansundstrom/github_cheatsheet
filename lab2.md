@@ -12,7 +12,6 @@ Med samarbeten menas här att flera utvecklare kan utveckla olika grenar av ett 
 7. ```git branch``` Notera aktuell gren
 6. ```git checkout develop``` Byter till branch New_Feature
 5. ```git branch -m new_feature``` Döper om aktuell branch
-6. ```git checkout master``` Byter till branch New_Feature
 7. ```git branch``` Notera aktuell gren
 
 ### Skapa innehåll i branch
