@@ -56,9 +56,9 @@ Stage'a och commit'a ```index.html``` med meddelandet "Lagt till BODY"
 2. ```git log```
 2. Besvara: Vad visar loggen? Två commits?
 2. Notera: commit hash, vilket är tidigare commit? 
-2. ```git log --stat``` visar förändringar förkortat
-2. ```git log --pretty=oneline``` visar hash och commit, message och HEAD
-2. ```git log -p -2``` tillsammans med pil-upp/ned. visar innehållet som förändrats (avsluta med CTRL-C)
+2. ```git log --stat``` visar förändringar förkortat (pil upp/ned, Q för avslut)
+2. ```git log --pretty=oneline``` visar hash, commit message och HEAD
+2. ```git log -p -2``` Visar förändringar i innehållet (pil upp/ned, Q för avslut)
 ##### Återställ till  tidigare versioner
 38. ```git checkout <hash> index.html``` testa att skriva så få hash-tecken som möjligt, börja med första (från vänster)
 39. När git säger ```Prevoious HEAD was <hash>... HEAD is now at <hash>...``` har ny version lästs in
