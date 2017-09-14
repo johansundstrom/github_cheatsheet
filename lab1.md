@@ -12,6 +12,7 @@ Med versionshantering menas här att en mapp eller fil's innehåll kan finnas i 
 åtkomst i alla projektmappar
 3. ```git config --global user.email "johan.sundstrom@mdh.se"```
 3. ```git config --global color.ui auto``` - Färg UI
+3. ```git config --list``` Listar konfigurering
 
 ### Skapa fil
 4. Sänd ```ls``` (list) konstatera att det är tomt
