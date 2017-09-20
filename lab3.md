@@ -23,18 +23,25 @@
 11. ```git push origin master``` Notera att GitHub frågar efter giltigt användarnamn och lösenord
 12. Om du fått giltigt användarnamn och lösenord, ställ in dessa enligt p.1-2
 13. ```git push origin master``` Notera att push 
-10. ```git remote``` Notera att ```origin``` listas
-11. ```git remote -v``` Lista verbose. Notera (fetch) och (push) adresser
-12. ```git remote rm origin``` Raderar befintliga anslutningar
+14. ```git remote``` Notera att ```origin``` listas
+15. ```git remote -v``` Lista verbose. Notera (fetch) och (push) adresser
+16. ```git remote rm origin``` Raderar befintliga anslutningar
+
+### Anslut till externt repo och hämta innehåll
+17. Markera en lämplig plats i filsystemet dit det externa innehållet skall skapas
+18. ```git clone <url>``` (ex. http://github.com/johansundstrom/gitlab.git) Skapa lokal mapp och klonar allt
+19. Notera att mapp skapats med ``ls```
+20. Gå in i mappen ```cd <mapp>```
+21. ```ls``` Notera att det bör finnas ett innehåll
+
+### 
 
 
+18. ```git fetch <url>``` Hämta förändringar från origin
+19. ```git remote``` Lista anslutningar (```origin``` är standard kortnamn på anslutning)
+20. ```git remote -v``` Lista anslutningar verbose
 
-##### Fortsättningsvis talar vi endast om HTTP.
-12. ```git clone <url>``` (ex. http://github.com/johansundstrom/gitlab.git) Skapa lokal mapp och klonar allt
-2. ```git fetch <url>``` Hämta förändringar från origin
-3. ```git remote``` Lista anslutningar (```origin``` är standard kortnamn på anslutning)
-4. ```git remote -v``` Lista anslutningar verbose
-
+### 
 ### Hämta förändringar 
 ... mer kommer snart
 
