@@ -37,15 +37,15 @@
  
 ### Uppdatera från lokal repo till extern
 #### _git push http://github.com/johansundstrom/gitlab.git_ används för att uppdatera centralt repo_
-21. Öppna och redigera fil i mappen gitlab - spara
-22. stage'a och commit'a förändringarna
-23. ```git remote push http://github.com/johansundstrom/gitlab.git```
-24. Ta för vana att uppdatera lokal repo innan lokalt arbete inleds
+22. Öppna och redigera fil i mappen gitlab - spara
+23. stage'a och commit'a förändringarna
+24. ```git remote push http://github.com/johansundstrom/gitlab.git```
+25. Ta för vana att uppdatera lokal repo innan lokalt arbete inleds
 
 ### uppdatera lokal repo från central repo
 #### _uppdatera lokal repo med centrala uppdateringar_
-25. ```git fetch http://github.com/johansundstrom/gitlab.git```
-26. ```git fetch origin``` är ett enklare alternativ till ovanstående, kräver etablerad origin
+26. ```git fetch http://github.com/johansundstrom/gitlab.git```
+27. ```git fetch origin``` är ett enklare alternativ till ovanstående, kräver etablerad origin
 
 
 18. ```git fetch <url>``` Hämta förändringar från origin
