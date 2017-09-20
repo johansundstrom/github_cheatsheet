@@ -43,7 +43,7 @@
 25. Ta för vana att uppdatera lokal repo innan lokalt arbete inleds
 
 ### uppdatera lokal repo från central repo
-#### git push - uppdaterar lokal repo med centrala uppdateringar
+#### git fetch - uppdaterar lokal repo med centrala uppdateringar
 26. ```git fetch http://github.com/johansundstrom/gitlab.git```
 27. ```git fetch origin``` är ett enklare alternativ till ovanstående, kräver etablerad origin
 
