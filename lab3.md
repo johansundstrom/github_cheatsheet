@@ -27,7 +27,7 @@
 15. ```git remote -v``` Lista verbose. Notera (fetch) och (push) adresser
 16. ```git remote rm origin``` Raderar befintliga anslutningar
 
-### Anslut till externt repo och hämta innehållet till nytt lokalt repo
+### hämtar filer från centralt repo, skapar lokal mapp samt .git 
 #### git clone - används för att etablera första gången
 17. Markera en lämplig plats i filsystemet dit det externa innehållet skall skapas
 18. ```git clone http://github.com/johansundstrom/gitlab.git``` Skapa lokal mapp och klonar allt
@@ -35,18 +35,21 @@
 20. Gå in i mappen ```cd gitlab```
 21. ```ls``` Notera att det bör finnas ett innehåll
  
-### Uppdatera från lokal repo till extern
+### Publicera lokala förändringar på ett anslutningsnamn
 #### git push - används för att uppdatera centralt repo
 22. Öppna och redigera fil i mappen gitlab - spara
 23. stage'a och commit'a förändringarna
 24. ```git remote push http://github.com/johansundstrom/gitlab.git```
 25. Ta för vana att uppdatera lokal repo innan lokalt arbete inleds
 
+Hämtar förändringar från origin och uppdaterar arbetsfiler i HEAD
 ### uppdatera lokal repo från central repo
 #### git fetch - uppdaterar lokal repo med centrala uppdateringar
 26. ```git fetch http://github.com/johansundstrom/gitlab.git```
 27. ```git fetch origin``` är ett enklare alternativ till ovanstående, kräver etablerad origin
 
+
+Hämtar förändringar från origin och uppdaterar arbetsfiler i HEAD
 
 18. ```git fetch <url>``` Hämta förändringar från origin
 19. ```git remote``` Lista anslutningar (```origin``` är standard kortnamn på anslutning)
