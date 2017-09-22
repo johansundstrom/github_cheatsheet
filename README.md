@@ -47,7 +47,7 @@
 
 ### Konfigurera git från Bash/PowerShell/Terminal/DOS-prompt/Cmder
 * ```http://git-scm.com/download``` - Installerar Bash-kommandoprompt (Linuxkommandon)
-* ```http://cmder.net``` - Bättre konsol med Linuxkommandon på Windows
+* För Windows finns en bättre konsol ```http://cmder.net```
 * Öppna VS Code's interna terminalfönster (CTRL-ö) och skriv konsolkommandon
 1. Öppna terminal och förbered plats och mapp i filsystemet ```cd <mapp>``` och/eller ```mkdir <mapp>```
 1. ```git init``` - Skapa lokalt repository (dold) för versionshantering i ```.git```-undermapp
