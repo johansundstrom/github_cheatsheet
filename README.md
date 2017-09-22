@@ -43,6 +43,7 @@
 ### git och VS Code <img src="https://image.apphit.com/image/visual-studio-code/visual-studio-code-logo.png" width="3%" height="3%" />
 * ```http://git-scm.com/download``` krävs för tillgång till git i VS Code
 * ```https://code.visualstudio.com/download```
+* Med Visual Studio Code finns möjlighet att arbeta med terminal eller GUI
 
 ### Konfigurera git från Bash/PowerShell/Terminal/DOS-prompt/Cmder
 * ```http://git-scm.com/download``` - Installerar Bash-kommandoprompt (Linuxkommandon)
@@ -75,15 +76,15 @@
 1. ```git status``` - Visar status
 1. ```git commit -m 'commit message'``` - Commit (lagrar versionen)
 
-### 1. Stage file/files
-* ```git add file``` | ```directory``` | ```*.????``` | ```.```  - fil | mapp | wildcard | alla
-* ```git add file``` | ```directory``` | ```*.????``` | ```.``` ```<-p>``` - Visa diff
-### Unstage file/files
-* ```git reset HEAD -- file``` | ```path/file``` - Motsats till 'git add' (HEAD är aktuell branch)
-### 2. Commit file(s)
+### 1. Stage <fil(er)>
+* ```git add <fil>``` | ```<mapp>``` | ```*.????``` | ```.```  - fil | mapp | wildcard | alla
+* ```git add <fil>``` | ```<mapp>``` | ```*.????``` | ```.``` ```<-p>``` - Visa diff
+### Unstage <fil(er)>
+* ```git reset HEAD -- <fil>``` | ```<path/fil>``` - Motsats till 'git add' (HEAD är aktuell branch)
+### 2. Commit <fil(er)>
 * ```git commit -m 'commit message'```
-### Uncommit file(s)
-* ```git checkout -- file``` - Återgå till fil i föregående commit
+### Uncommit <fil(er)>
+* ```git checkout -- <fil>``` - Återgå till fil i föregående commit
 ### 3. Special - Add med Commit (stage och commit samtidigt)
 * ```git commit -am 'commit message'```
 ### 4. Visa logg
@@ -95,7 +96,7 @@
 2. ```fil``` | ```/folder``` | ```*.txt``` - Lista vad som inte ska ingå (ett entry/rad)
 ---
 ### Visa skillnader mellan arbetsfiler och repository
-* ```git diff <file>```
+* ```git diff <fil(er)>```
 ### Visa skillnader mellan staged och repository
 * ```git diff --staged```
 ### Radera arbetsfiler och repository-filer
@@ -115,7 +116,7 @@ Notis visar att förändringar väntar på att skrivas
 * Markera fil - _Stage_
 * Skriv commit message, Skicka
 * Klick på ```M```visar förändringar
-## Undoing changes från repository (koperar tidigare stage till senast. Raderar inte)
+## Undoing changes från repository (kopierar tidigare stage till senast. Raderar inte)
 * ```git log --oneline``` (en rad)
 output från ovanstående
 ```
