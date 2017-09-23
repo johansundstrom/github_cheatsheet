@@ -29,6 +29,7 @@ Med samarbeten menas här att flera utvecklare samtidigt kan skapa nya grenar (b
 20. ```git checkout new_feature``` Byt till New_Feature
 21. Sänd ```ls```
 22. Notera att filer från Master och New_Feature existerar
+23. ```git log --oneline --decorate --graph --all -5``` Lista de 5 senaste händelserna
 
 ### Merge
 23. ```git branch``` Notera aktuell branch
