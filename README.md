@@ -142,7 +142,7 @@ f8a9f38 nya filer
 * Ett ```M```indikerar modified
 * Markera fil - _Clean_
 
-# Branch - Merge
+# <a href="https://github.com/johansundstrom/github_cheatsheet/blob/master/collaboration.md">Branch - Merge</a>
 <img src="https://backlogtool.com/git-guide/en/img/post/stepup/capture_stepup1_5_6.png" width="60%" height="60%" />
 
 (bild: backlogtool.com)
@@ -173,7 +173,7 @@ f8a9f38 nya filer
 ### Slutlig upload till repository
 * ```git push```
 
-# Arbeta mot remote repository
+# <a href="https://github.com/johansundstrom/github_cheatsheet/blob/master/remotes.md">Arbeta mot remote repository</a>
 
 <img src="https://www.git-tower.com/learn/content/01-git/01-ebook/en/01-command-line/04-remote-repositories/01-introduction/basic-remote-workflow.png" width="50%" />
 
