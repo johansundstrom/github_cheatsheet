@@ -1,7 +1,7 @@
 # Lab 2
 
 ## Samarbeten - Branch/Merge
-Med samarbeten menas här att flera utvecklare kan utveckla olika grenar av ett befintligt offentligt repo. När man uppnått en fullgod ny funktion så merge'ar man in dessa i offentliga samtidigt. Konsumenter kan hela tiden ladda ned och använda rådande version. 
+Med samarbeten menas här att flera utvecklare samtidigt kan skapa nya grenar (branch)av ett befintligt offentligt repo. I dessa kan arbeten pågå och utvecklas utan att störa huvudgrenen. Efter att man uppnått en fullgod ny funktion i en ny gren så merge'as dessa in i och uppgraderar huvudgrenen. Konsumenter kan hela tiden ladda ned och använda versionen som ligger i huvudgrenen samtidigt som arbeten pågår i olika mer eller mindre offentliga grenar. 
 
 ### Setup
 1. Bekräfta att nuvarande branch är ```Master``` med ```git branch```
@@ -43,5 +43,6 @@ Med samarbeten menas här att flera utvecklare kan utveckla olika grenar av ett 
 ### Use cases
 29. Besvara: Skapa en branch-struktur som passar tre personer med varsin del i utvecklingsprojektet. Master ska alltid vara _deployable_
 30. Besvara: Skapa en passande branch-struktur  där det finns utrymme för att arbeta med en alpha- och en beta-version av utvecklingsprojektet. Master ska alltid vara _deployable_
+31. 
 
 (C) Johan Sundström
