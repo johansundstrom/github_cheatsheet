@@ -86,17 +86,19 @@
 * ```git add <fil>``` | ```<mapp>``` | ```*.????``` | ```.```  - Fil | mapp | wildcard | alla
 * ```git add <fil>``` | ```<mapp>``` | ```*.????``` | ```.``` Tillägget ``` --patch``` visar redigeringar mot repository 
 ### Unstage <mapp(ar)>/<fil(er)>
-* ```git reset HEAD -- <fil>``` | ```<path/fil>``` - Motsats till 'git add' (HEAD är aktuell commit)
+* ```git reset HEAD <fil>``` | ```<path/fil>``` - Fil återgår till Modified-status (HEAD är aktuell commit)
 ### 2. Commit <fil(er)>
-* ```git commit -m 'commit message'```
+* ```git commit --message "commit message"```
 ### Uncommit <fil(er)>
-* ```git checkout -- <fil>``` - Återgå till fil i föregående commit
-### 3. Special - Add med Commit (stage och commit samtidigt)
-* ```git commit -am 'commit message'```
+* ```git reset HEAD <fil>``` - Återgå till fil i föregående commit
+### 3. Återställ fil från tidigare commit
+* ```git checkout -- <fil(er)>```
 ### 4. Visa logg
 * ```git log``` - Visar alla commits och ID
 * ```git log -p``` - Visar commit händelser, visar vad som ändrats
 * ```git log -p -2``` - Visar commit händelser, visar vad som ändrats, sista två händelserna
+* ```git log --pretty=oneline``` god överblick över commits
+* ```git log --pretty=oneline --grapg``` Lägger till en graf 
 * ```git log author="joh"``` - Visar alla commits från viss användare
 ### 5. .gitignore - fil eller mapp som inte ska behandlas av versionsystemet
 1. ```touch .gitignore``` - Skapa filen ```.gitignore```
