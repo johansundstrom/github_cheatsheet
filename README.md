@@ -78,7 +78,7 @@
 
 ### 1. Stage <mapp(ar)>/<fil(er)>
 * ```git add <fil>``` | ```<mapp>``` | ```*.????``` | ```.```  - Fil | mapp | wildcard | alla
-* ```git add <fil>``` | ```<mapp>``` | ```*.????``` | ```.``` | ```<fil> --patch``` - Visar redigeringar mot repository 
+* ```git add <fil>``` | ```<mapp>``` | ```*.????``` | ```.``` Tillägget ``` --patch``` visar redigeringar mot repository 
 ### Unstage <mapp(ar)>/<fil(er)>
 * ```git reset HEAD -- <fil>``` | ```<path/fil>``` - Motsats till 'git add' (HEAD är aktuell branch)
 ### 2. Commit <fil(er)>
