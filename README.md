@@ -13,7 +13,7 @@
 * Kan vara svårt att lära sig
 * Mål: _master branch - always deployable_ - deploy i Master branch, utveckling i annan branch
 * _git_ is British slang för "_pig headed_, think they are always correct, argumentative" _wiki_
-* Läs mer på ```https://www.git-tower.com/learn/git/ebook```
+* Läs mer på ```https://www.git-tower.com/learn/git/ebook``` eller ```  ```https://git-scm.com/book/en/v2/```
 
 <img src="https://crossbrowsertesting.com/design/images/github-logo.png" width="15%" height="15%" />
 
@@ -62,6 +62,10 @@
 * Klicka ```Initialize Repository``` i VS Code eller...
 * Öppna VS Code's interna terminalfönster (CTRL-ö) och skriv konsolkommandon
 
+### git hjälp
+* ```git <verb> --help```
+* ```git help <verb>```
+
 # Versionshantering
 ### Tre _stages_: Modified ---> Staged ---> Committed
 <img src="https://git-scm.com/images/about/index1@2x.png" width="30%" height="30%" />
@@ -72,15 +76,17 @@
 3. **Committed** - Mapp(ar)/fil(er) i säkert förvar inom versionsdatabasen (grön)
 
 ### Snabbversionen
+1. ```git status``` - Visar filer som ändrats
 1. ```git add .```  - Stage'ar allt
 1. ```git status``` - Visar status
+1. ```git status --short``` - Visar kort meddelande
 1. ```git commit -m 'commit message'``` - Commit (lagrar versionen)
 
 ### 1. Stage <mapp(ar)>/<fil(er)>
 * ```git add <fil>``` | ```<mapp>``` | ```*.????``` | ```.```  - Fil | mapp | wildcard | alla
 * ```git add <fil>``` | ```<mapp>``` | ```*.????``` | ```.``` Tillägget ``` --patch``` visar redigeringar mot repository 
 ### Unstage <mapp(ar)>/<fil(er)>
-* ```git reset HEAD -- <fil>``` | ```<path/fil>``` - Motsats till 'git add' (HEAD är aktuell branch)
+* ```git reset HEAD -- <fil>``` | ```<path/fil>``` - Motsats till 'git add' (HEAD är aktuell commit)
 ### 2. Commit <fil(er)>
 * ```git commit -m 'commit message'```
 ### Uncommit <fil(er)>
