@@ -90,7 +90,7 @@
 ### 2. Commit <fil(er)>
 * ```git commit --message "commit message"```
 ### Uncommit <fil(er)>
-* ```git reset HEAD <fil>``` - Återgå till fil i föregående commit
+* ```git reset HEAD <fil>``` - Återställ fil från föregående commit
 ### 3. Återställ fil från tidigare commit
 * ```git checkout -- <fil(er)>```
 ### 4. Visa logg
