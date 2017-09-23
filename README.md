@@ -34,7 +34,7 @@
 ### Förbered <img src="https://crossbrowsertesting.com/design/images/github-logo.png" width="15%" height="15%" />
 * Registrera konto på ```https://github.com``` och logga in
 
-### GUI tools (rekommenderas ej)
+### GUI tools (rekommenderas ej i tidigt stadium)
 * GitHub for Windows
 ```https://windows.github.com```
 * GitHub for Mac
@@ -48,13 +48,13 @@
 ### Konfigurera git från Bash/PowerShell/Terminal/DOS-prompt/Cmder
 * ```http://git-scm.com/download``` - Installerar Bash-kommandoprompt (Linuxkommandon)
 * För Windows finns en bättre konsol ```http://cmder.net```
-* Öppna VS Code's interna terminalfönster (CTRL-ö) och skriv konsolkommandon
+* Öppna VS Code's interna terminalfönster (Windows: CTRL-ö, Linux: CTRL-Shft-´) 
 1. Öppna terminal och förbered plats och mapp i filsystemet ```cd <mapp>``` och/eller ```mkdir <mapp>```
-1. ```git init``` - Skapar lokal repository för versionshantering. ```.git```-undermapp (dold)
-1. ```git config --global user.name "johansundstrom"``` - Tillägget ```--global``` ger åtkomst i alla projektmappar
+1. ```git init``` - Skapar lokal repository  i dolda undermappen ```.git```
+1. ```git config --global user.name "johansundstrom"``` Tillägget ```--global``` ger åtkomst i alla projektmappar
 1. ```git config --global user.email "johan.sundstrom@mdh.se"```
-1. ```git config user.name``` - Ekar användarnamn
-1. ```git config user.email``` - Ekar epostadress
+1. ```git config user.name``` - Visar användarnamn
+1. ```git config user.email``` - Visar epostadress
 1. ```git config --list``` - Listar inställningar
 1. ```git config --global user.name "ninja-johan"``` - Ändrar username
 1. ```git config --global color.ui auto``` - Färg UI
@@ -67,19 +67,19 @@
 <img src="https://git-scm.com/images/about/index1@2x.png" width="30%" height="30%" />
 
 (bild: github.com)
-1. **Modified** - redigerad fil upptäckt (röd)
-2. **Staged** - fil(er) märkt(a) för att bli committed (gul)
-3. **Committed** - fil(er) i säkert förvar i versionsdatabasen (grön)
+1. **Modified** - Redigerade mapp(ar)/fil(er) upptäckta av git (röd)
+2. **Staged** - Mapp(ar)/fil(er) märkta för att bli committed (gul)
+3. **Committed** - Mapp(ar)/fil(er) i säkert förvar inom versionsdatabasen (grön)
 
-### Snabbversion
+### Snabbversionen
 1. ```git add .```  - Stage'ar allt
 1. ```git status``` - Visar status
 1. ```git commit -m 'commit message'``` - Commit (lagrar versionen)
 
-### 1. Stage <fil(er)>
-* ```git add <fil>``` | ```<mapp>``` | ```*.????``` | ```.```  - fil | mapp | wildcard | alla
+### 1. Stage <mapp(ar)>/<fil(er)>
+* ```git add <fil>``` | ```<mapp>``` | ```*.????``` | ```.```  - Fil | mapp | wildcard | alla
 * ```git add <fil>``` | ```<mapp>``` | ```*.????``` | ```.``` ```<-p>``` - Visa diff
-### Unstage <fil(er)>
+### Unstage <mapp(ar)>/<fil(er)>
 * ```git reset HEAD -- <fil>``` | ```<path/fil>``` - Motsats till 'git add' (HEAD är aktuell branch)
 ### 2. Commit <fil(er)>
 * ```git commit -m 'commit message'```
