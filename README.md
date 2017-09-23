@@ -101,9 +101,9 @@
 1. ```touch .gitignore``` - Skapa filen ```.gitignore```
 2. ```fil``` | ```/folder``` | ```*.txt``` - Lista vad som inte ska ingå (ett entry/rad)
 ---
-### Visa skillnader mellan arbetsfiler och repository
+### Visa skillnader mellan arbetsfiler och staging area
 * ```git diff <fil(er)>```
-### Visa skillnader mellan staged och repository
+### Visa skillnader mellan staging area och repository
 * ```git diff --staged```
 ### Radera arbetsfiler och repository-filer
 * ```git rm fil.file``` Kräver git add nyfil.file och git rm gammal.file innan commit
@@ -139,33 +139,6 @@ f8a9f38 nya filer
 * Ett ```M```indikerar modified
 * Markera fil - _Clean_
 
-# Arbeta mot remote repository
-
-<img src="https://www.git-tower.com/learn/content/01-git/01-ebook/en/01-command-line/04-remote-repositories/01-introduction/basic-remote-workflow.png" width="50%" />
-
-### Snabbversion
-1. ```git clone <url>```  - Skapar lokal mapp samt .git och hämtar filer från centralt repo
-2. ```git pull <remote> <branch>``` - Hämtar förändringar från origin och uppdaterar arbetsfiler i HEAD
-3. ```git push <remote> <branch>``` - Publicera lokala förändringar på ett anslutningsnamn
-## Översikt kommandon
-### Anslutning(ar) - 'origin' är default anslutningsnamn
-* ```git remote add origin <url>``` - Använd URL från github.com (```origin``` är default anslutningsnamn)
-* ```git remote add <remote> <url>``` - Använd url från github.com (```<remote>``` är anslutningsnamnet)
-* ```git remote``` - Listar anslutningsnamn
-* ```git remote -v``` - Visar anslutningsnamn och URL
-* ```git remote rm <remote>``` - Raderar anslutning 'remote'
-* ```git remote rename <old-remotename> <new-remotename>```
-### Hämta till lokal repo från anslutning
-* ```git clone <url>```  - Skapar lokal mapp samt .git och hämtar filer från centralt repo
-* ```git fetch <remote>``` - Hämtar förändringar från origin men uppdaterar INTE arbetsfiler i HEAD (kräver omstart av t.ex. VS Code)
-* ```git pull <remote> <branch>``` - Hämtar förändringar från origin och uppdaterar arbetsfiler i HEAD
-### Skicka från lokal repo till central repo på given anslutning
-* ```git push <remote> <branch>``` - Publicera lokala förändringar på ett anslutningsnamn
-* ```git push -u <remote> <branch>``` - Parameter -u i minnet, git push nästa gång)
-### Manipulera remote
-* ```git branch -dr <remote/branch>``` - Radera remote branch
-* ```git diff HEAD```  - Visar skillnader i arbetsverktyget
-
 # Branch - Merge
 <img src="https://backlogtool.com/git-guide/en/img/post/stepup/capture_stepup1_5_6.png" width="60%" height="60%" />
 
@@ -196,6 +169,35 @@ f8a9f38 nya filer
 * ```git branch -d develop``` (raderar branch develop)
 ### Slutlig upload till repository
 * ```git push```
+
+# Arbeta mot remote repository
+
+<img src="https://www.git-tower.com/learn/content/01-git/01-ebook/en/01-command-line/04-remote-repositories/01-introduction/basic-remote-workflow.png" width="50%" />
+
+### Snabbversion
+1. ```git clone <url>```  - Skapar lokal mapp samt .git och hämtar filer från centralt repo
+2. ```git pull <remote> <branch>``` - Hämtar förändringar från origin och uppdaterar arbetsfiler i HEAD
+3. ```git push <remote> <branch>``` - Publicera lokala förändringar på ett anslutningsnamn
+## Översikt kommandon
+### Anslutning(ar) - 'origin' är default anslutningsnamn
+* ```git remote add origin <url>``` - Använd URL från github.com (```origin``` är default anslutningsnamn)
+* ```git remote add <remote> <url>``` - Använd url från github.com (```<remote>``` är anslutningsnamnet)
+* ```git remote``` - Listar anslutningsnamn
+* ```git remote -v``` - Visar anslutningsnamn och URL
+* ```git remote rm <remote>``` - Raderar anslutning 'remote'
+* ```git remote rename <old-remotename> <new-remotename>```
+### Hämta till lokal repo från anslutning
+* ```git clone <url>```  - Skapar lokal mapp samt .git och hämtar filer från centralt repo
+* ```git fetch <remote>``` - Hämtar förändringar från origin men uppdaterar INTE arbetsfiler i HEAD (kräver omstart av t.ex. VS Code)
+* ```git pull <remote> <branch>``` - Hämtar förändringar från origin och uppdaterar arbetsfiler i HEAD
+### Skicka från lokal repo till central repo på given anslutning
+* ```git push <remote> <branch>``` - Publicera lokala förändringar på ett anslutningsnamn
+* ```git push -u <remote> <branch>``` - Parameter -u i minnet, git push nästa gång)
+### Manipulera remote
+* ```git branch -dr <remote/branch>``` - Radera remote branch
+* ```git diff HEAD```  - Visar skillnader i arbetsverktyget
+
+
 
 
 1) git pull (ändringar?)
