@@ -80,7 +80,7 @@
 1. ```git add .```  - Stage'ar allt
 1. ```git status``` - Visar status
 1. ```git status --short``` - Visar kort meddelande
-1. ```git commit -m 'commit message'``` - Commit (lagrar versionen)
+1. ```git commit --message "commit message"``` - Commit (lagrar versionen)
 
 ### 1. Stage <mapp(ar)>/<fil(er)>
 * ```git add <fil>``` | ```<mapp>``` | ```*.????``` | ```.```  - Fil | mapp | wildcard | alla
