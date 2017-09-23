@@ -50,7 +50,7 @@
 * För Windows finns en bättre konsol ```http://cmder.net```
 * Öppna VS Code's interna terminalfönster (CTRL-ö) och skriv konsolkommandon
 1. Öppna terminal och förbered plats och mapp i filsystemet ```cd <mapp>``` och/eller ```mkdir <mapp>```
-1. ```git init``` - Skapa lokalt repository (dold) för versionshantering i ```.git```-undermapp
+1. ```git init``` - Skapar lokal repository för versionshantering. ```.git```-undermapp (dold)
 1. ```git config --global user.name "johansundstrom"``` - Tillägget ```--global``` ger åtkomst i alla projektmappar
 1. ```git config --global user.email "johan.sundstrom@mdh.se"```
 1. ```git config user.name``` - Ekar användarnamn
