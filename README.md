@@ -66,7 +66,7 @@
 * ```git <verb> --help```
 * ```git help <verb>```
 
-# Versionshantering
+# <a href="https://github.com/johansundstrom/github_cheatsheet/blob/master/versioning.md">Versionshantering</a>
 ### Tre _stages_: Modified ---> Staged ---> Committed
 <img src="https://git-scm.com/images/about/index1@2x.png" width="30%" height="30%" />
 
