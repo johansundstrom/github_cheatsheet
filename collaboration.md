@@ -1,6 +1,6 @@
 # Lab 2
 
-## Samarbeten
+## Samarbeten - Branch/Merge
 Med samarbeten menas här att flera utvecklare kan utveckla olika grenar av ett befintligt offentligt repo. När man uppnått en fullgod ny funktion så merge'ar man in dessa i offentliga samtidigt. Konsumenter kan hela tiden ladda ned och använda rådande version. 
 
 ### Setup

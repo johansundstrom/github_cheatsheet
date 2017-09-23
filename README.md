@@ -142,7 +142,7 @@ f8a9f38 nya filer
 * Ett ```M```indikerar modified
 * Markera fil - _Clean_
 
-# <a href="https://github.com/johansundstrom/github_cheatsheet/blob/master/collaboration.md">Branch - Merge</a>
+# <a href="https://github.com/johansundstrom/github_cheatsheet/blob/master/collaboration.md">Samarbeten - Branch/Merge</a>
 <img src="https://backlogtool.com/git-guide/en/img/post/stepup/capture_stepup1_5_6.png" width="60%" height="60%" />
 
 (bild: backlogtool.com)

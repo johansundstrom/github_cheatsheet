@@ -1,6 +1,6 @@
 # Lab 3
 
-## Central repository
+## Arbeta mot remote repositories
 
 ### Förutsättning: centralt repo kan vara...
 * GitHub (HTTP)
