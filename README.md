@@ -1,12 +1,12 @@
 # Om G I T - av johan sundström
-## git och github
+## Git och github
 <img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" width="10%" height="10%" />
 
 (bild: git.scm.com)
 * Som ersättning för omöjliga versionshanteringar på filnivå skapades Versionshanteringsprogram
-* _git_ är ett versionshanteringsprogram VCS (Version Control System), _Subversion_ (SVN) är ett annat
+* _Git_ är ett versionshanteringsprogram VCS (Version Control System), _Subversion_ (SVN) är ett annat
 * Versionshantering innebär stöd för _traceability_, möjligheten att backa till tidigare versioner
-* _git_ är inte filversioner
+* _Git_ är inte filversioner
 * Stödjer flera användare i ett team eller projekt genom branch-based workflow (_branching_ och _merging_)
 * Är de facto _standard_ och benämns vara _lightwheight_
 * _Open source_, skapat av Linus Thorvalds 2005
@@ -21,7 +21,7 @@
 * Centrala datalagringsplatser (fil- och databaser) kallas _repository_ eller _repo's_
 * Github är ett publikt repository och kan nås via webb
 * Principen är öppen lagring gratis - betala för privat
-* git är inte github
+* Git är inte github
 
 <img src="http://1.bp.blogspot.com/-WY2YpNr3W6g/UY6tZAc-H3I/AAAAAAAABLY/xJ9x3wIY8V8/s1600/Github2.png" width="30%" height="30%" />
 
@@ -40,12 +40,12 @@
 * GitHub for Mac
 ```https://mac.github.com```
 
-### git och VS Code <img src="https://image.apphit.com/image/visual-studio-code/visual-studio-code-logo.png" width="3%" height="3%" />
-* ```http://git-scm.com/download``` krävs för tillgång till git i VS Code
+### Git och VS Code <img src="https://image.apphit.com/image/visual-studio-code/visual-studio-code-logo.png" width="3%" height="3%" />
+* ```http://git-scm.com/download``` krävs för tillgång till Git i VS Code
 * ```https://code.visualstudio.com/download```
 * Med Visual Studio Code finns möjlighet att arbeta med terminal eller GUI
 
-### Konfigurera git från Bash/PowerShell/Terminal/DOS-prompt/Cmder
+### Konfigurera Git från Bash/PowerShell/Terminal/DOS-prompt/Cmder
 * ```http://git-scm.com/download``` - Installerar Bash-kommandoprompt (Linuxkommandon)
 * För Windows finns en bättre konsol ```http://cmder.net```
 * Öppna VS Code's interna terminalfönster (Windows: CTRL-ö, Linux: CTRL-Shft-´) 
@@ -58,11 +58,11 @@
 1. ```git config --list``` - Listar inställningar
 1. ```git config --global user.name "ninja-johan"``` - Ändrar username
 1. ```git config --global color.ui auto``` - Färg UI
-### Konfigurera git från VS Code
+### Konfigurera Git från VS Code
 * Klicka ```Initialize Repository``` i VS Code eller...
 * Öppna VS Code's interna terminalfönster (CTRL-ö) och skriv konsolkommandon
 
-### git hjälp
+### Git hjälp
 * ```git <verb> --help```
 * ```git help <verb>```
 
@@ -71,7 +71,7 @@
 <img src="https://git-scm.com/images/about/index1@2x.png" width="30%" height="30%" />
 
 (bild: github.com)
-1. **Modified** - Redigerade mapp(ar)/fil(er) upptäckta av git (röd)
+1. **Modified** - Redigerade mapp(ar)/fil(er) upptäckta av Git (röd)
 2. **Staged** - Mapp(ar)/fil(er) märkta för att bli committed (gul)
 3. **Committed** - Mapp(ar)/fil(er) i säkert förvar inom versionsdatabasen (grön)
 
@@ -109,7 +109,7 @@
 ### Visa skillnader mellan staging area och repository
 * ```git diff --staged```
 ### Radera arbetsfiler och repository-filer
-* ```git rm fil.file``` Kräver git add nyfil.file och git rm gammal.file innan commit
+* ```git rm fil.file``` Kräver Git add nyfil.file och Git rm gammal.file innan commit
 ### Byt namn på fil
 * ```git mv oldname.file newname.file```
 ### Flyttar fil till mapp
@@ -195,7 +195,7 @@ f8a9f38 nya filer
 * ```git pull <remote> <branch>``` - Hämtar förändringar från origin och uppdaterar arbetsfiler i HEAD
 ### Skicka från lokal repo till central repo på given anslutning
 * ```git push <remote> <branch>``` - Publicera lokala förändringar på ett anslutningsnamn
-* ```git push -u <remote> <branch>``` - Parameter -u i minnet, git push nästa gång)
+* ```git push -u <remote> <branch>``` - Parameter -u i minnet, Git push nästa gång)
 ### Manipulera remote
 * ```git branch -dr <remote/branch>``` - Radera remote branch
 * ```git diff HEAD```  - Visar skillnader i arbetsverktyget
@@ -203,7 +203,7 @@ f8a9f38 nya filer
 
 
 
-1) git pull (ändringar?)
+1) Git pull (ändringar?)
 git (visar kommandon)
 git VI esc:wq = write quit
 
@@ -213,9 +213,9 @@ git clone https://github.com/johansundstrom/RPi_Node (hämtar från repository)
 
 ???Anslut till github
 ---------------------
-13) git remote add origin https://github.com/johansundstrom/try_git.git
-14) git push -u origin master (-u remember parameters, next time: git push)
-15) git pull origin master
+13) Git remote add origin https://github.com/johansundstrom/try_git.git
+14) Git push -u origin master (-u remember parameters, next time: Git push)
+15) Git pull origin master
 
 
 
