@@ -14,6 +14,7 @@
 * Mål: _master branch - always deployable_ - deploy i Master branch, utveckling i annan branch
 * _git_ is British slang för "_pig headed_, think they are always correct, argumentative" _wiki_
 * Läs mer på <a href="https://www.git-tower.com/learn/git/ebook">https://www.git-tower.com/learn/git/ebook</a> eller <a href="https://git-scm.com/book/en/v2/">https://git-scm.com/book/en/v2/</a>
+* Lär/träna Git interaktivt online på <a href="https://try.github.io">try.github.io"</a>
 
 <img src="https://crossbrowsertesting.com/design/images/github-logo.png" width="15%" height="15%" />
 
