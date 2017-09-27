@@ -1,4 +1,4 @@
-# Om G I T - av johan sundström.
+# Om G I T - av johan sundström
 ## Git och github
 <img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" width="10%" height="10%" />
 
