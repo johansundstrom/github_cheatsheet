@@ -1,5 +1,5 @@
 # Om G I T - av johan sundström
-## Git och github!
+## Git och github!!
 <img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" width="10%" height="10%" />
 
 (bild: git.scm.com)
