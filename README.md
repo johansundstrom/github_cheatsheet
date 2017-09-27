@@ -1,5 +1,5 @@
 # Om G I T - av johan sundström
-## Git och github
+## Git och github!
 <img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" width="10%" height="10%" />
 
 (bild: git.scm.com)
@@ -49,7 +49,7 @@
 ### Konfigurera Git från Bash/PowerShell/Terminal/DOS-prompt/Cmder
 * ```http://git-scm.com/download``` - Installerar Bash-kommandoprompt (Linuxkommandon)
 * För Windows finns en bättre konsol ```http://cmder.net```
-* Öppna VS Code's interna terminalfönster (Windows: CTRL-ö, Linux: CTRL-Shft-´) 
+* Öppna VS Code's interna terminalfönster (Windows: CTRL-ö, Linux: CTRL-Shft-´)
 1. Öppna terminal och förbered plats och mapp i filsystemet ```cd <mapp>``` och/eller ```mkdir <mapp>```
 1. ```git init``` - Skapar lokal repository  i dolda undermappen ```.git```
 1. ```git config --global user.name "johansundstrom"``` Tillägget ```--global``` ger åtkomst i alla projektmappar
@@ -85,7 +85,7 @@
 
 ### 1. Stage <mapp(ar)>/<fil(er)>
 * ```git add <fil>``` | ```<mapp>``` | ```*.????``` | ```.```  - Fil | mapp | wildcard | alla
-* ```git add <fil>``` | ```<mapp>``` | ```*.????``` | ```.``` Tillägget ``` --patch``` visar redigeringar mot repository 
+* ```git add <fil>``` | ```<mapp>``` | ```*.????``` | ```.``` Tillägget ``` --patch``` visar redigeringar mot repository
 ### Unstage <mapp(ar)>/<fil(er)>
 * ```git reset HEAD <fil>``` | ```<path/fil>``` - Fil återgår till Modified-status (HEAD är aktuell commit)
 ### 2. Commit <fil(er)>
@@ -99,7 +99,7 @@
 * ```git log -p``` - Visar commit händelser, visar vad som ändrats
 * ```git log -p -2``` - Visar commit händelser, visar vad som ändrats, sista två händelserna
 * ```git log --pretty=oneline``` god överblick över commits
-* ```git log --pretty=oneline --grapg``` Lägger till en graf 
+* ```git log --pretty=oneline --grapg``` Lägger till en graf
 * ```git log author="joh"``` - Visar alla commits från viss användare
 ### 5. .gitignore - fil eller mapp som inte ska behandlas av versionsystemet
 1. ```touch .gitignore``` - Skapa filen ```.gitignore```
