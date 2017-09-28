@@ -154,7 +154,7 @@ f8a9f38 nya filer
 3. ...arbete sker nu i develop branch
 4. ```git checkout master``` byt till master branch. Master är nu HEAD branch
 5. ```git merge develop``` slår samman "develop" med master branch
-6. ```git branch -d develop``` raderar "develop" branch
+6. ```git branch --delete develop``` raderar "develop" branch
 
 
 ### Skapa Branch
