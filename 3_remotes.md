@@ -32,7 +32,7 @@
 17. Med terminalen, gå till lämplig plats i filsystemet ```cd <mapp>```
 Git clone gör följande tre kommandon
 * Git init
-* Git remote add origin [url]
+* Git remote add origin <url>
 * Git pull origin master
 18. Markera en lämplig plats i filsystemet dit det externa innehållet skall skapas
 19. ```git clone http://github.com/johansundstrom/gitlab.git``` Skapa lokal mapp och klonar allt
