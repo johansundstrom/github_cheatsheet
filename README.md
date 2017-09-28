@@ -98,8 +98,8 @@
 * ```git log``` - Visar alla commits och ID
 * ```git log -p``` - Visar commit händelser, visar vad som ändrats
 * ```git log -p -2``` - Visar commit händelser, visar vad som ändrats, sista två händelserna
-* ```git log --pretty=oneline``` god överblick över commits
-* ```git log --pretty=oneline --graph``` Lägger till en graf
+* ```git log --pretty=oneline``` - Enklare överblick över commits
+* ```git log --pretty=oneline --graph``` - Lägger till en graf
 * ```git log author="joh"``` - Visar alla commits från viss användare
 ### 5. .gitignore - fil eller mapp som inte ska behandlas av versionsystemet
 1. ```touch .gitignore``` - Skapa filen ```.gitignore```
