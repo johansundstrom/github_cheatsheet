@@ -10,9 +10,9 @@ Med versionshantering menas här att en mapp eller fil's innehåll kan finnas i 
 4. Högerklicka mappen och välj ```Git Bash Here```
 5. ```git config --global user.name "johansundstrom"``` - Tillägget --global ger 
 åtkomst i alla projektmappar
-6. ```git config --global user.email "johan.sundstrom@mdh.se"```
-7. ```git config --global color.ui auto``` - Färg UI
-8. ```git config --list``` Listar konfigurering
+6. ```git config -global user.email "johan.sundstrom@mdh.se"```
+7. ```git config -global color.ui auto``` - Färg UI
+8. ```git config -list``` Listar konfigurering
 
 ### Skapa fil
 9. Med ```cd <mapp>``` och ```mkdir <ny mapp>``` gå till lämplig plats i filsystemet (Mina dokument/proj) 
@@ -21,9 +21,9 @@ Med versionshantering menas här att en mapp eller fil's innehåll kan finnas i 
 12. Sänd ```ls```
 13. Sänd ```ls -l``` (lista rättigheter)
 Bokstäverna rwx står för Read/Write/Execute rättighet. Dessa visas tre gånger, först för ```Owner```, därefter ```Group``` och sist ```Others``` (world). RWX benämns ibland 7 (1+2+4). Första biten kan vara - (fil) eller d (katalog)
-14. Sänd ```ls --full``` (lista allt)
+14. Sänd ```ls -full``` (lista allt)
 15. Sänd ```ls -a``` (lista dolda files)
-16. Sänd ```ls -a --full``` (lista allt och dolda filer)
+16. Sänd ```ls -a -full``` (lista allt och dolda filer)
 17. Besvara: När skapades filen?
 18. Vad har filen för filrättigheter?
 19. Läs om chmod ```https://ss64.com/bash/chmod.htm```
@@ -57,7 +57,7 @@ Stage'a och commit'a ```index.html``` med meddelandet "Lagt till BODY"
 39. ```git log```
 40. Besvara: Vad visar loggen? Två commits?
 41. Notera: commit hash, vilket är tidigare commit? 
-42. ```git log --stat``` visar förändringar förkortat (pil upp/ned, Q för avslut)
+42. ```git log -stat``` visar förändringar förkortat (pil upp/ned, Q för avslut)
 43. ```git log --pretty=oneline``` visar hash, commit message och HEAD
 44. ```git log -p -2``` Visar förändringar i innehållet (pil upp/ned, Q för avslut)
 ##### Återställ till  tidigare versioner
