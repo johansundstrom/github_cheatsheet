@@ -68,6 +68,6 @@ Stage'a och commit'a ```index.html``` med meddelandet "Lagt till BODY"
 49. Öppna filen ```index.html``` Återställd?
 50. Uppdatera ```index.html``` igen med ```<head>...</head> och <body>...</body>``` inom ```<html>...</html>```
 Stage'a och commit'a ```index.html``` med meddelandet "Lagt till HEAD och BODY"
-51. Bläddra med pil-upp/ned till ```git log -p -2```  visar innehållet som förändrats (avsluta med CTRL-C)
+51. Bläddra med pil-upp/ned till ```git log -patch -2```  visar innehållet som förändrats (avsluta med CTRL-C)
 
 (C) Johan Sundström
