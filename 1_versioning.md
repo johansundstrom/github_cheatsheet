@@ -19,11 +19,11 @@ Med versionshantering menas här att en mapp eller fil's innehåll kan finnas i 
 10. Sänd ```ls``` (list) konstatera att det är tomt
 11. Sänd ```touch index.html``` Skapar index.html
 12. Sänd ```ls```
-13. Sänd ```ls -l``` (lista rättigheter)
+13. Sänd ```ls -l``` (listar rättigheter)
 Bokstäverna rwx står för Read/Write/Execute rättighet. Dessa visas tre gånger, först för ```Owner```, därefter ```Group``` och sist ```Others``` (world). RWX benämns ibland 7 (1+2+4). Första biten kan vara - (fil) eller d (katalog)
-14. Sänd ```ls --full``` (lista allt)
-15. Sänd ```ls -a``` (lista dolda files)
-16. Sänd ```ls -a --full``` (lista allt och dolda filer)
+14. Sänd ```ls -full``` (lista allt)
+15. Sänd ```ls -a``` (lista mappar som börjar med dot)
+16. Sänd ```ls -a -full``` (lista utökat och mappar som börjar med dot)
 17. Besvara: När skapades filen?
 18. Vad har filen för filrättigheter?
 19. Läs om chmod ```https://ss64.com/bash/chmod.htm```
@@ -59,7 +59,7 @@ Stage'a och commit'a ```index.html``` med meddelandet "Lagt till BODY"
 41. Notera: commit hash, vilket är tidigare commit? 
 42. ```git log --stat``` visar förändringar förkortat (pil upp/ned, Q för avslut)
 43. ```git log --pretty=oneline``` visar hash, commit message och HEAD
-44. ```git log -p -2``` Visar förändringar i innehållet (pil upp/ned, Q för avslut)
+44. ```git log --patch -2``` Visar förändringar i innehållet (pil upp/ned, Q för avslut)
 ##### Återställ till  tidigare versioner
 45. ```git checkout <hash> index.html``` testa att skriva så få hash-tecken som möjligt, börja med första (från vänster)
 46. När Git säger ```Prevoious HEAD was <hash>... HEAD is now at <hash>...``` har ny version lästs in
