@@ -44,7 +44,7 @@ Bokstäverna rwx står för Read/Write/Execute rättighet. Dessa visas tre gång
 30. ```git status```
 ### Commit fil
 31. ```git add index.html``` genomför stageing
-32. ```git commit -m "Lagt till HTML"```
+32. ```git commit --message "Lagt till HTML"```
 33. Besvara: Vad rapporterar git?
 34. ```git status```
 35. ```git log```
