@@ -96,8 +96,8 @@
 * ```git checkout -- <fil(er)>```
 ### 4. Visa logg
 * ```git log``` - Visar alla commits och ID
-* ```git log -p``` - Visar commit händelser, visar vad som ändrats
-* ```git log -p -2``` - Visar commit händelser, visar vad som ändrats, sista två händelserna
+* ```git log --patch``` - Visar commit händelser, visar vad som ändrats
+* ```git log --patch -2``` - Visar commit händelser, visar vad som ändrats, sista två händelserna
 * ```git log --pretty=oneline``` - Enklare överblick över commits
 * ```git log --pretty=oneline --graph``` - Lägger till en graf
 * ```git log author="joh"``` - Visar alla commits från viss användare
@@ -163,14 +163,14 @@ f8a9f38 nya filer
 1. ```git checkout develop``` switch till "develop" branch
 * develop är nu aktuell _HEAD branch_
 * filerna i arbetskatalogen byts nu till de aktuella i develop branch
-2. ```git rm '*.txt'``` Raderar alla *.txt i "develop" branch
-1. ```git commit -m "raderat alla *.txt"```
+2. ```git rm "*.txt"``` Raderar alla *.txt i "develop" branch
+1. ```git commit --message "raderat alla *.txt"```
 ### Chechkout master
 * ```git checkout master``` - Switch till master branch
 ### Förbered för Merge
 * ```git merge develop``` - Slår samman
 ### Branch städning
-* ```git branch -d develop``` (raderar branch develop)
+* ```git branch --delete develop``` (raderar branch develop)
 ### Slutlig upload till repository
 * ```git push```
 
@@ -187,7 +187,7 @@ f8a9f38 nya filer
 * ```git remote add origin <url>``` - Använd URL från github.com (```origin``` är default anslutningsnamn)
 * ```git remote add <remote> <url>``` - Använd url från github.com (```<remote>``` är anslutningsnamnet)
 * ```git remote``` - Listar anslutningsnamn
-* ```git remote -v``` - Visar anslutningsnamn och URL
+* ```git remote --verbose``` - Visar anslutningsnamn och URL
 * ```git remote rm <remote>``` - Raderar anslutning 'remote'
 * ```git remote rename <old-remotename> <new-remotename>```
 ### Hämta till lokal repo från anslutning
@@ -196,7 +196,7 @@ f8a9f38 nya filer
 * ```git pull <remote> <branch>``` - Hämtar förändringar från origin och uppdaterar arbetsfiler i HEAD
 ### Skicka från lokal repo till central repo på given anslutning
 * ```git push <remote> <branch>``` - Publicera lokala förändringar på ett anslutningsnamn
-* ```git push -u <remote> <branch>``` - Parameter -u i minnet, Git push nästa gång)
+* ```git push --set-upstream <remote> <branch>``` - Parameter -u i minnet, Git push nästa gång)
 ### Manipulera remote
 * ```git branch -dr <remote/branch>``` - Radera remote branch
 * ```git diff HEAD```  - Visar skillnader i arbetsverktyget
