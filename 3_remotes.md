@@ -64,7 +64,7 @@ Git clone gör följande två kommandon
 29. ```git pull origin master```
 Eftersom ```git pull``` försöker att göra merge centrala förändringar med de lokala så är ```merge confict``` vanligt. Rekommendationen är därför att bara använda ```git pull``` på ren arbetskopia (lokal repo).
 
-Ta för vana att uppdatera lokal repo innan lokalt arbete inleds
+Ta för vana att uppdatera lokal repo innan lokalt arbete på remote inleds
 
 Hämtar förändringar från origin och uppdaterar arbetsfiler i HEAD
 
