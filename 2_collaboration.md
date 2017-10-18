@@ -39,7 +39,7 @@ Med samarbeten menas här att flera utvecklare samtidigt kan skapa nya grenar (b
 27. ```ls``` Notera att ```content.txt``` FINNS i ```Master```
 
 ### Uppstädning
-28. ```git branch -d develop``` Raderar develop branch
+28. ```git branch -d new_feature``` Raderar develop branch
 
 ### Use cases
 29. Besvara: Skapa en branch-struktur som passar tre personer som på varsit håll kan utveckla utan att störa vandra. De tre delarna är faster-login, log-bugfix och social-feature i utvecklingsprojektet. Master ska alltid vara _deployable_ och samtliga utvecklare ska ha tillgång en samlad gren.
